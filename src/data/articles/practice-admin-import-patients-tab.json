@@ -1,0 +1,92 @@
+{
+  "id": "practice-admin-import-patients-tab",
+  "title": "Import Patients Tab",
+  "description": "Import Patients Tab documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Import Patients Tab",
+      "href": "/docs/practice-admin/practice-admin-import-patients-tab"
+    }
+  ],
+  "module": "Import Patients Tab",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "6 minutes",
+  "overview": "This guide covers import patients tab workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "bulk-import-patients-from-a-spreadsheet",
+      "title": "Bulk-import patients from a spreadsheet",
+      "purpose": "Upload a CSV / Excel file to enrol many patients into the practice in one operation.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Import Patients Tab",
+          "description": "Click the Import Patients tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Download & Populate Template",
+          "description": "Download the sample template if provided, and populate it with patient demographics, program (CCM / RPM) and vitals-target opt-ins.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Choose Spreadsheet File",
+          "description": "Click Choose File and select the completed spreadsheet.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Upload the File",
+          "description": "Click Upload / Import.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Review Import Results",
+          "description": "Review the result summary \u2014 rows created, rows skipped, rows failed \u2014 and download the error report for any failures.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Fix and Re-Upload Rows",
+          "description": "Fix the flagged rows in the source file and re-upload just those rows if needed. Notes Patient email must be unique across the practice \u2014 duplicates are rejected with a clear error. Import respects the Schedule & Targets configuration active at the time of import. Task 7.11 \u2014 Patient Management",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "7.10.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "import patients tab",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "import-patients-tab"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "bulk-import-patients-from-a-spreadsheet",
+      "title": "Bulk-import patients from a spreadsheet"
+    }
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,181 @@
+{
+  "id": "system-admin-caregivers",
+  "title": "Caregivers",
+  "description": "Caregivers documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "Caregivers",
+      "href": "/docs/system-admin/system-admin-caregivers"
+    }
+  ],
+  "module": "Caregivers",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "14 minutes",
+  "overview": "This guide covers caregivers workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "browse-the-system-caregivers-roster",
+      "title": "Browse the system caregivers roster",
+      "purpose": "Locate a specific system caregiver from the master roster and filter by status.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Caregivers List",
+          "description": "Click Caregivers in the left sidebar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search Caregivers",
+          "description": "Type any part of a name, address, phone or email into the Search caregivers\u2026 box; results filter as you type.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Filter by Status",
+          "description": "Optionally choose Active / Inactive / All Status from the top-right dropdown to narrow the roster.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Sort Caregiver List",
+          "description": "Sort by clicking Status or Name column headers.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "View, Edit, or Delete Caregiver",
+          "description": "For any row, click the blue eye icon to view the profile, the pencil to edit, or the red trash icon to delete. Notes The Status chip (A = Active, I = Inactive) reflects whether the caregiver can log in and receive assignments. Rows shown here are system caregivers pooled across practices \u2014 practice-scoped caregivers appear under the Practice detail \u2192 Caregivers tab instead.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-52.png"
+      ],
+      "_manualRef": "6.3.1"
+    },
+    {
+      "id": "view-a-caregiver-profile-eye-icon",
+      "title": "View a caregiver profile (eye icon)",
+      "purpose": "Inspect a caregiver\u2019s contact information and assignments without making changes.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Caregiver Profile",
+          "description": "From the Caregivers list, click the eye icon on the target row.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Caregiver Details",
+          "description": "Review demographics, contact, and status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Return to Roster",
+          "description": "Use the back / List button to return to the roster. Notes The profile view is safe to share for verification \u2014 no edits can be made from this screen.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.3.2"
+    },
+    {
+      "id": "edit-a-caregiver-pencil-icon",
+      "title": "Edit a caregiver (pencil icon)",
+      "purpose": "Update a caregiver\u2019s contact details or change their active status.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Edit Caregiver Form",
+          "description": "Click the pencil icon on the target caregiver row.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Update Caregiver Details",
+          "description": "Update name, address, phone, cell phone, fax or email as needed.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Toggle Caregiver Status",
+          "description": "Toggle Status between Active and Inactive if the caregiver\u2019s login should be enabled or disabled.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save or Cancel Edit",
+          "description": "Click Save to commit, or Cancel to discard changes. Notes Setting Status = Inactive preserves the record but prevents sign-in and removes the caregiver from selectable lists on new assignments. Email changes trigger a verification email if two-factor authentication is enabled.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.3.3"
+    },
+    {
+      "id": "delete-a-caregiver-trash-icon",
+      "title": "Delete a caregiver (trash icon)",
+      "purpose": "Permanently remove a caregiver record from the system.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Delete Caregiver",
+          "description": "Click the red trash icon on the target row.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Confirm Deletion",
+          "description": "Confirm the deletion in the modal. Notes Prefer Inactive over Delete when the caregiver has historical patient interactions \u2014 deletion is irreversible. Task 6.4 \u2014 Inventory",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.3.4"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "caregivers",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "caregivers"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "browse-the-system-caregivers-roster",
+      "title": "Browse the system caregivers roster"
+    },
+    {
+      "id": "view-a-caregiver-profile-eye-icon",
+      "title": "View a caregiver profile (eye icon)"
+    },
+    {
+      "id": "edit-a-caregiver-pencil-icon",
+      "title": "Edit a caregiver (pencil icon)"
+    },
+    {
+      "id": "delete-a-caregiver-trash-icon",
+      "title": "Delete a caregiver (trash icon)"
+    }
+  ],
+  "screenshots": []
+}

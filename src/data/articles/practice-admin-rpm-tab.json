@@ -1,0 +1,76 @@
+{
+  "id": "practice-admin-rpm-tab",
+  "title": "RPM Tab",
+  "description": "RPM Tab documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "RPM Tab",
+      "href": "/docs/practice-admin/practice-admin-rpm-tab"
+    }
+  ],
+  "module": "RPM Tab",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "3 minutes",
+  "overview": "This guide covers rpm tab workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "review-the-practice-rpm-profile",
+      "title": "Review the practice RPM profile",
+      "purpose": "Confirm RPM contact, program window and monitoring flags in one place.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open RPM Tab",
+          "description": "Click the RPM tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Verify RPM Program Dates",
+          "description": "Verify the RPM row in Program Dates matches the current billing window (Start date, End date, Days).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Read Monitoring Details",
+          "description": "Read Monitoring Details to confirm whether eVitals is monitoring patients and whether devices are being purchased. Notes The RPM tab mirrors the Practice tab but restricts Program Dates to the RPM program only \u2014 useful for RPM-only sign-offs. Task 7.9 \u2014 Schedule & Targets Tab",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-75.png"
+      ],
+      "_manualRef": "7.8.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "rpm tab",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "rpm-tab"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-the-practice-rpm-profile",
+      "title": "Review the practice RPM profile"
+    }
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,88 @@
+{
+  "id": "provider-dashboard",
+  "title": "Dashboard",
+  "description": "Dashboard documentation for Provider.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/provider"
+    },
+    {
+      "label": "Dashboard",
+      "href": "/docs/provider/provider-dashboard"
+    }
+  ],
+  "module": "Dashboard",
+  "category": "Provider",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "5 minutes",
+  "overview": "This guide covers dashboard workflows for Provider.",
+  "subtasks": [
+    {
+      "id": "provider-dashboard-welcome-practice-landing",
+      "title": "Provider Dashboard (welcome & practice landing)",
+      "purpose": "Land the Provider on their assigned practice, confirm sign-in role and expose the practice-detail tab bar.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Sign In as Provider",
+          "description": "Sign in with the Provider credentials. The Dashboard opens on the assigned practice.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Read Welcome Toast",
+          "description": "Read the welcome toast (top-right) to confirm the role and practice.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Confirm Enrollment Counters",
+          "description": "Confirm the enrolment counters \u2014 <N> CCM (green heart) and <N> RPM (blue heart) \u2014 beneath the practice name.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Switch Between Tabs",
+          "description": "Use the horizontal tab bar to move between Practice, Admins, Providers, Caregivers, Patients, System Caregivers, RPM, Schedule & Targets and Import Patients.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Use Header Shortcuts",
+          "description": "Use the header bell for notifications, the info (i) icon for release notes and the username dropdown (top-right) for Logout / Change Password / My Account. Notes Providers see practice-scoped data only \u2014 the top-level Practice List / Enrollment views used by Super Admin and System Admin are hidden. CCM / RPM counters on the header reflect currently enrolled patients across all statuses; use the Patients tab for a live filterable grid. The welcome toast can be dismissed with the \u00d7 icon and will not reappear until the next login. Task 8.2 \u2014 Practice Detail (tabbed workspace)",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-95.png"
+      ],
+      "_manualRef": "8.1.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "dashboard",
+    "provider"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Provider",
+    "tags": [
+      "provider",
+      "dashboard"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "provider-dashboard-welcome-practice-landing",
+      "title": "Provider Dashboard (welcome & practice landing)"
+    }
+  ],
+  "screenshots": []
+}

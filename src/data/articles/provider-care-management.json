@@ -1,0 +1,106 @@
+{
+  "id": "provider-care-management",
+  "title": "Care Management",
+  "description": "Care Management documentation for Provider.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/provider"
+    },
+    {
+      "label": "Care Management",
+      "href": "/docs/provider/provider-care-management"
+    }
+  ],
+  "module": "Care Management",
+  "category": "Provider",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "8 minutes",
+  "overview": "This guide covers care management workflows for Provider.",
+  "subtasks": [
+    {
+      "id": "follow-up-query",
+      "title": "Follow Up Query",
+      "purpose": "Build a filtered work-list of patients requiring outreach \u2014 missed uploads, out-of-target readings or pending CCM items.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Follow-Up Query",
+          "description": "Click Care Mgmt \u2192 Follow Up Query in the sidebar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Name Filters",
+          "description": "Enter Last Name / First Name (partial match).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pick Program Enrolled",
+          "description": "Pick Program Enrolled * (required).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Scope by Provider/Caregiver",
+          "description": "Optionally scope by Provider and / or Caregiver.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Pick Status Filter",
+          "description": "Optionally pick a Status (Active / Paused / Lost).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Run or Reset Query",
+          "description": "Click Query to load the work-list, or Reset to clear.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Keyword-Filter Results",
+          "description": "Use the Search box to keyword-filter the loaded set.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Act on Follow-Up Row",
+          "description": "Click a row Action to open the patient, log an outreach note or record a follow-up call. Notes The Care Mgmt sidebar sub-menu currently contains only Follow Up; other care-management tools live on the patient profile. Follow-up notes logged here contribute to Service Time on the CCM lookup report. The empty state \u201cSelect filters and click Query to load patients\u201d is shown until Query is clicked. Task 8.5 \u2014 Calendar",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-112.png"
+      ],
+      "_manualRef": "8.4.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "care management",
+    "provider"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Provider",
+    "tags": [
+      "provider",
+      "care-management"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "follow-up-query",
+      "title": "Follow Up Query"
+    }
+  ],
+  "screenshots": []
+}

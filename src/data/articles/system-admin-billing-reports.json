@@ -1,0 +1,131 @@
+{
+  "id": "system-admin-billing-reports",
+  "title": "Billing Reports",
+  "description": "Billing Reports documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "Billing Reports",
+      "href": "/docs/system-admin/system-admin-billing-reports"
+    }
+  ],
+  "module": "Billing Reports",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "10 minutes",
+  "overview": "This guide covers billing reports workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "open-a-practice-billing-report",
+      "title": "Open a practice billing report",
+      "purpose": "Review the current billing cycle and patient billing statuses for every practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Billing Tab",
+          "description": "Click Billing in the left sidebar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search Billing by Practice",
+          "description": "Use the Search box to filter by practice name, ID or email.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sort Billing List",
+          "description": "Sort by Status or any column header.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Read Program Enrollment",
+          "description": "Read the Program Enrolled chip (e.g. RPM (46)) to see how many patients are enrolled in each program for that practice.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Open Billing Report",
+          "description": "Click the eye icon in the View Report column to open the detailed billing report for that practice.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Change Billing Period",
+          "description": "Click the calendar icon to change the billing period date range before generating the report.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Page Through Billing List",
+          "description": "Change Show entries or use the pager to navigate.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Audit Billing Activity",
+          "description": "Click Event Logs (top of table) to audit billing activity. Notes Billing Period Date shows the current cycle window (start ~ end) for that practice\u2019s care program. The Patients Status chips (T / A / P / L) summarise Total / Active / Pending / Locked counts for quick triage.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-56.png"
+      ],
+      "_manualRef": "6.5.1"
+    },
+    {
+      "id": "interpret-patient-status-chips",
+      "title": "Interpret patient status chips",
+      "purpose": "Understand what the T / A / P / L badges mean before drilling into a report.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Read Patient Status Chips",
+          "description": "On any row, read the four coloured chips under Patients Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "View Underlying Patient List",
+          "description": "Hover / open the report to see the underlying patient list. Notes T = Total patients in the billing period; A = Active (meeting service-time thresholds); P = Pending (partial data / awaiting review); L = Locked (billing already finalised). Zero-count chips are still shown for context (e.g. L 0 means no billing has been finalised yet for the cycle). Task 6.6 \u2014 Patient Management",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.5.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "billing reports",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "billing-reports"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "open-a-practice-billing-report",
+      "title": "Open a practice billing report"
+    },
+    {
+      "id": "interpret-patient-status-chips",
+      "title": "Interpret patient status chips"
+    }
+  ],
+  "screenshots": []
+}

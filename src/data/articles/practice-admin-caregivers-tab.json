@@ -1,0 +1,113 @@
+{
+  "id": "practice-admin-caregivers-tab",
+  "title": "Caregivers Tab",
+  "description": "Caregivers Tab documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Caregivers Tab",
+      "href": "/docs/practice-admin/practice-admin-caregivers-tab"
+    }
+  ],
+  "module": "Caregivers Tab",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "7 minutes",
+  "overview": "This guide covers caregivers tab workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "review-the-practice-caregivers-list",
+      "title": "Review the practice Caregivers list",
+      "purpose": "See every caregiver employed by the practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Caregivers Tab",
+          "description": "Click the Caregivers tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search, Filter, or Sort",
+          "description": "Search / filter / sort as with Admins and Providers.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "View Caregiver Profile",
+          "description": "Click a row (or the eye icon) to view the caregiver\u2019s profile. Notes These are practice-employed caregivers, distinct from System Caregivers (see 7.7) who are shared across practices.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-72.png"
+      ],
+      "_manualRef": "7.5.1"
+    },
+    {
+      "id": "add-a-caregiver",
+      "title": "Add a Caregiver",
+      "purpose": "Provision a new practice caregiver.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Add a Caregiver",
+          "description": "Click + Add Caregiver (top-right).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fill Caregiver Details",
+          "description": "Fill in Name, Address, Home Phone, Cell Phone, Fax, Email, Username.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Caregiver Status",
+          "description": "Set Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save Caregiver",
+          "description": "Click Save. Notes Caregivers can be scheduled via the Calendar module once created. Task 7.6 \u2014 Patients Tab",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "7.5.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "caregivers tab",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "caregivers-tab"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-the-practice-caregivers-list",
+      "title": "Review the practice Caregivers list"
+    },
+    {
+      "id": "add-a-caregiver",
+      "title": "Add a Caregiver"
+    }
+  ],
+  "screenshots": []
+}

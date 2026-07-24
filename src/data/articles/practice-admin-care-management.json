@@ -1,0 +1,100 @@
+{
+  "id": "practice-admin-care-management",
+  "title": "Care Management",
+  "description": "Care Management documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Care Management",
+      "href": "/docs/practice-admin/practice-admin-care-management"
+    }
+  ],
+  "module": "Care Management",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "7 minutes",
+  "overview": "This guide covers care management workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "follow-up-query",
+      "title": "Follow Up Query",
+      "purpose": "Surface patients who need outreach (missed uploads, abnormal readings, unanswered care-plan items) using the same filter set as Lookup Patient.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Follow-Up Query",
+          "description": "Click Care Mgmt in the sidebar, then Follow Up.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Patient Name",
+          "description": "Enter any combination of Last Name, First Name.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pick Filters",
+          "description": "Pick Practice (scoped to the current practice), Provider, Caregiver and Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Run or Reset Query",
+          "description": "Click Query to load the follow-up list; use Reset to clear all filters.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Narrow Results Further",
+          "description": "Use the top-right Search box to filter the returned rows.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Sort by Name",
+          "description": "Click the Name header to sort ascending / descending.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Act on Follow-Up Row",
+          "description": "Use the Action icons in each row to open the patient dashboard, record a follow-up note or dismiss the alert. Notes The thresholds that decide who is flagged live in Settings \u2192 Follow Up Setting (minimum days since last upload, minimum readings, escalation window). Dismissing a follow-up here does not delete the underlying missed-upload / abnormal-reading events \u2014 it only removes the row from the outreach queue. Task 7.13 \u2014 Calendar",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-88.png"
+      ],
+      "_manualRef": "7.12.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "care management",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "care-management"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "follow-up-query",
+      "title": "Follow Up Query"
+    }
+  ],
+  "screenshots": []
+}

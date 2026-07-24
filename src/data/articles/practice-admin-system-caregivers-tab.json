@@ -1,0 +1,76 @@
+{
+  "id": "practice-admin-system-caregivers-tab",
+  "title": "System Caregivers Tab",
+  "description": "System Caregivers Tab documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "System Caregivers Tab",
+      "href": "/docs/practice-admin/practice-admin-system-caregivers-tab"
+    }
+  ],
+  "module": "System Caregivers Tab",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "3 minutes",
+  "overview": "This guide covers system caregivers tab workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "review-system-caregivers-assigned-to-the-practice",
+      "title": "Review System Caregivers assigned to the practice",
+      "purpose": "See which cross-practice System Caregivers are servicing this practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open System Caregivers Tab",
+          "description": "Click the System Caregivers tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search, Filter, or Sort",
+          "description": "Search / filter / sort using the search box and All Status dropdown.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review Assignment Logs",
+          "description": "Click Event Logs to view audit entries for system-caregiver assignments. Notes System Caregivers are provisioned by System Admin (see chapter 6). Practice Admin only sees the assignments \u2014 they cannot add or remove System Caregivers here. Task 7.8 \u2014 RPM Tab",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-74.png"
+      ],
+      "_manualRef": "7.7.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "system caregivers tab",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "system-caregivers-tab"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-system-caregivers-assigned-to-the-practice",
+      "title": "Review System Caregivers assigned to the practice"
+    }
+  ],
+  "screenshots": []
+}

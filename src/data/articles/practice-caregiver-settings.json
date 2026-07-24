@@ -1,0 +1,119 @@
+{
+  "id": "practice-caregiver-settings",
+  "title": "Settings",
+  "description": "Settings documentation for Practice Caregiver.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-caregiver"
+    },
+    {
+      "label": "Settings",
+      "href": "/docs/practice-caregiver/practice-caregiver-settings"
+    }
+  ],
+  "module": "Settings",
+  "category": "Practice Caregiver",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "8 minutes",
+  "overview": "This guide covers settings workflows for Practice Caregiver.",
+  "subtasks": [
+    {
+      "id": "account-setting-profile-session-cache-2fa",
+      "title": "Account Setting (profile, session, cache, 2FA)",
+      "purpose": "View caregiver profile, control session timeout, refresh the cache, and check Two-Way Authentication state.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Open Settings \u2014 the Account Setting tab is active by default (Follow Up Setting is the second tab).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Review read-only profile fields: Full Name, Username, Email, Phone, Fax, and Current Session Time.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Check Two Way Authentication \u2014 the badge shows Enabled or Disabled; contact the practice admin to change this state.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "To extend or shorten sessions, type a new value into Session Time (minutes) and click Update \u2014 the Current Session Time reflects the new value on the next login.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Step 5",
+          "description": "Click Refresh next to Clear Cache to force the workspace to re-fetch reference data (patients, providers, dropdowns) when values look stale.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image12.png"
+      ],
+      "_manualRef": "9.5.1"
+    },
+    {
+      "id": "follow-up-setting-thresholds-escalation-cadence",
+      "title": "Follow Up Setting (thresholds & escalation cadence)",
+      "purpose": "Configure the follow-up rules that populate the Care Mgmt \u2192 Follow Up Query results.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Open Settings \u2192 Follow Up Setting (second tab beside Account Setting).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Adjust the cadence / threshold fields exposed on the tab (e.g. days since last reading, missed-reading count) and save the changes.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Return to Care Mgmt \u2192 Follow Up Query and re-run the query to confirm the new rules populate the expected patients.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "9.5.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "settings",
+    "practice caregiver"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Caregiver",
+    "tags": [
+      "practice-caregiver",
+      "settings"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "account-setting-profile-session-cache-2fa",
+      "title": "Account Setting (profile, session, cache, 2FA)"
+    },
+    {
+      "id": "follow-up-setting-thresholds-escalation-cadence",
+      "title": "Follow Up Setting (thresholds & escalation cadence)"
+    }
+  ],
+  "screenshots": []
+}

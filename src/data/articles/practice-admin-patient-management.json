@@ -1,0 +1,305 @@
+{
+  "id": "practice-admin-patient-management",
+  "title": "Patient Management",
+  "description": "Patient Management documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Patient Management",
+      "href": "/docs/practice-admin/practice-admin-patient-management"
+    }
+  ],
+  "module": "Patient Management",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "33 minutes",
+  "overview": "This guide covers patient management workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "add-new-patient-demographics-programs-rpm-ccm-wizard",
+      "title": "Add New Patient (Demographics \u2192 Programs \u2192 RPM / CCM wizard)",
+      "purpose": "Enrol a new patient into the practice with demographics, care team, program selection, monitoring setup and insurance.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Add New Patient",
+          "description": "Click Patient Mgmt in the sidebar and choose Add New Patient from the fly-out menu.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Personal Information",
+          "description": "Step 1 \u2014 Demographics \u00b7 Personal Information: pick Title, enter First Name (required), Middle Name, Last Name (required), Gender (required), Date Of Birth (required) and SSN (000-00-0000, required), then Home Phone, Cell Phone and Fax.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Enter Account Credentials",
+          "description": "Step 1 \u2014 Demographics \u00b7 Account Credentials: enter the patient\u2019s Username, Email and initial password fields (scroll below Personal Information).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Enter Address & Time Zone",
+          "description": "Step 1 \u2014 Demographics \u00b7 Address: enter the street, city, state, Zip Code (required) and Time Zone (required, defaults to UTC-4 with DST (BR)).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Set Care Team & Access",
+          "description": "Step 1 \u2014 Demographics \u00b7 Care Team & Settings: set Status (Active / Inactive, required), Two Way Authentication (Enabled / Disabled, required), Mobile App Access (Off / On), pick a Provider (required), optionally a System Caregiver, pick at least one Practice Caregiver (required \u2014 the form blocks Next with \u201cSelect at least one practice caregiver\u201d until this is filled) and optionally Upload Picture (max 1 MB).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Advance to Programs",
+          "description": "Click Next to advance to Programs.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Select Care Programs",
+          "description": "Step 2 \u2014 Programs: tick Chronic care management, Remote patient monitoring, or both (at least one is required). The wizard adds a matching RPM / CCM step at the top for each selected program.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Advance to Next Step",
+          "description": "Click Next.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 9,
+          "title": "Set RPM Start & Monitoring",
+          "description": "Step 3 \u2014 RPM (only if RPM was ticked): set RPM Start Date (required), tick Type Of Monitoring (BP, Glucose, Weight \u2014 at least one required).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 10,
+          "title": "Map RPM Meters",
+          "description": "Step 3 \u2014 RPM \u00b7 Meter Mapping: for each device, pick Model Number, Extension, enter the 16-character Serial Number and (optional) Gateway Serial Number. Click the + icon to add another meter row.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 11,
+          "title": "Enter Insurance Details",
+          "description": "Step 3 \u2014 RPM \u00b7 Insurance: fill in Primary insurance (Insurance Name, Subscriber Id, Insured's Name, Group No.) and, if applicable, Secondary insurance in the row below.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 12,
+          "title": "Complete CCM Details",
+          "description": "Click Next. If both programs were ticked, complete the CCM step (Start Date, chronic conditions, care-plan notes) the same way.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 13,
+          "title": "Save the Patient",
+          "description": "Click Save Patient (bottom-right) to create the record. Use Previous / Cancel to move back or discard. Notes The stepper across the top (Demographics \u00b7 Programs \u00b7 RPM \u00b7 CCM) shows filled steps as blue check marks and the current step as a highlighted ring; the CCM step only appears when CCM is ticked on step 2. Practice Caregiver is a hard requirement even for RPM-only enrolments \u2014 this is the caregiver responsible for reviewing uploads. Meter Serial Number must be exactly 16 characters; the form disables Save Patient until the length matches. RPM Start Date drives the eligibility clock for CPT codes 99453 / 99454 / 99457 / 99458. Two Way Authentication and Mobile App Access can be edited later from the patient profile.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-79.png",
+        "evitals_shot_image-80.png",
+        "evitals_shot_image-81.png",
+        "evitals_shot_image-82.png",
+        "evitals_shot_image-83.png"
+      ],
+      "_manualRef": "7.11.1"
+    },
+    {
+      "id": "lookup-patient-general",
+      "title": "Lookup Patient (general)",
+      "purpose": "Find a patient across the practice by demographics, provider, caregiver or status.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Lookup Patient",
+          "description": "Click Patient Mgmt \u2192 Lookup Patient.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Patient Name",
+          "description": "Enter any combination of Last Name, First Name.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pick Practice & Filters",
+          "description": "Pick a Practice (defaults to the current practice for a Practice Admin), Provider, Caregiver and Status filter.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Run or Reset Query",
+          "description": "Click Query to run the search; use Reset to clear all filters.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Narrow Results Further",
+          "description": "Use the top-right Search box to narrow the returned rows further.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Sort by Name",
+          "description": "Click the Name column arrow to sort A\u2192Z or Z\u2192A.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Open Patient Dashboard",
+          "description": "Click a patient name to open the patient dashboard. Notes Query is the only trigger \u2014 changing filters alone will not reload the grid. Practice Admins can only search within their own practice; the Practice dropdown is scoped accordingly.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-85.png"
+      ],
+      "_manualRef": "7.11.2"
+    },
+    {
+      "id": "lookup-patient-by-rpm-date",
+      "title": "Lookup Patient (by RPM date)",
+      "purpose": "Pull the RPM patient population that has activity within a given service date range, along with CPT-eligibility hints.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open RPM Lookup",
+          "description": "Click Patient Mgmt \u2192 Lookup Patient (by RPM date).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter RPM Date Range",
+          "description": "Enter the RPM Service Date Range (Start ~ End) using the mm/dd/yyyy pickers.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Run the Query",
+          "description": "Click Query.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Sort RPM Results",
+          "description": "Sort by RPM Start Date (default), Patient Name or DOB using the header arrows.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Narrow Results Further",
+          "description": "Use the top-right Search box to narrow the returned rows.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Print, Export, or Email",
+          "description": "Click Print to open a printable report, Export to download CSV / Excel or Email to send the report to a mailing list.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Reset Date Range",
+          "description": "Click Reset to clear the date range and start over. Notes Measurement Days is the count of unique days the patient uploaded a reading in the selected window \u2014 the driver for CPT 99454. Service Time is the accumulated caregiver-review time in the window \u2014 the driver for CPT 99457 / 99458. The Eligible CPT Codes column shows which codes will bill for the selected window; rows displaying \u201c\u2013\u201d are not yet eligible.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-86.png"
+      ],
+      "_manualRef": "7.11.3"
+    },
+    {
+      "id": "lookup-patient-by-ccm-date",
+      "title": "Lookup Patient (by CCM date)",
+      "purpose": "Pull the CCM patient population within a service date range along with chronic conditions and billing status.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open CCM Lookup",
+          "description": "Click Patient Mgmt \u2192 Lookup Patient (by CCM date).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter CCM Date Range",
+          "description": "Enter the CCM Service Date Range (Start ~ End).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Run the Query",
+          "description": "Click Query.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Sort CCM Results",
+          "description": "Sort by Enrollment Date (default), Patient Name or Last Activity.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Distribute the Report",
+          "description": "Use Print / Export / Email to distribute the report.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Reset Date Range",
+          "description": "Click Reset to clear the range. Notes Chronic Conditions lists every condition captured on the CCM enrolment step \u2014 at least two are required for CCM billing. Billing = Pending means the current cycle has not yet been submitted; Billed indicates the claim has been filed for the window. Task 7.12 \u2014 Care Management",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-87.png"
+      ],
+      "_manualRef": "7.11.4"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "patient management",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "patient-management"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "add-new-patient-demographics-programs-rpm-ccm-wizard",
+      "title": "Add New Patient (Demographics \u2192 Programs \u2192 RPM / CCM wizard)"
+    },
+    {
+      "id": "lookup-patient-general",
+      "title": "Lookup Patient (general)"
+    },
+    {
+      "id": "lookup-patient-by-rpm-date",
+      "title": "Lookup Patient (by RPM date)"
+    },
+    {
+      "id": "lookup-patient-by-ccm-date",
+      "title": "Lookup Patient (by CCM date)"
+    }
+  ],
+  "screenshots": []
+}

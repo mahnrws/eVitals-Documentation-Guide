@@ -1,0 +1,303 @@
+{
+  "id": "super-admin-practice-list",
+  "title": "Practice List",
+  "description": "Practice List documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Practice List",
+      "href": "/docs/super-admin/super-admin-practice-list"
+    }
+  ],
+  "module": "Practice List",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "22 minutes",
+  "overview": "This guide covers practice list workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "browse-search-practices",
+      "title": "Browse & Search Practices",
+      "purpose": "Locate a specific practice from the master list.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Practice List",
+          "description": "Open the Practice List (default landing view for Super Admin).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search by Practice Name",
+          "description": "Use the Search box to filter by practice name.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sort by Column",
+          "description": "Sort by clicking any column header (Status, Practice, Total Patients).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Open Practice Detail",
+          "description": "Click the eye icon on a row to open the practice detail (see 6.2 onward).",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "3b1ae4058fad238164b94b5a86091e525c46f9d9.png"
+      ],
+      "_manualRef": "5.2.1"
+    },
+    {
+      "id": "open-the-practice-tab",
+      "title": "Open the Practice Tab",
+      "purpose": "Review a practice's primary contact and program dates.",
+      "steps": [],
+      "screenshots": [
+        "659fc9c96be1bf298a9bb774768ee0a26c1d4f3d.png"
+      ],
+      "_manualRef": "5.2.2"
+    },
+    {
+      "id": "manage-practice-admins",
+      "title": "Manage Practice Admins",
+      "purpose": "See who administers the practice and add new admins.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Admins Tab",
+          "description": "Open the Admins tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Practice Admins",
+          "description": "Review the list of existing practice admins.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Add Practice Admin",
+          "description": "Click + Add Practice Admin to open the admin creation form.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save Admin Details",
+          "description": "Fill in name, email, phone, and role assignment; save.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "73061f7d4fcb6c3f324e4d7279c7b11560b6b3c5.png"
+      ],
+      "_manualRef": "5.2.3"
+    },
+    {
+      "id": "manage-providers",
+      "title": "Manage Providers",
+      "purpose": "Maintain the clinician roster for the practice.",
+      "steps": [],
+      "screenshots": [
+        "9c322c253a80ee9c0d19a5deb09dbc75cfdfd930.png"
+      ],
+      "_manualRef": "5.2.4"
+    },
+    {
+      "id": "manage-caregivers",
+      "title": "Manage Caregivers",
+      "purpose": "Maintain practice-employed caregivers.",
+      "steps": [],
+      "screenshots": [
+        "5185db1597be391d15e952ab9315a8119c753c7a.png"
+      ],
+      "_manualRef": "5.2.5"
+    },
+    {
+      "id": "review-patients-ccm-view",
+      "title": "Review Patients (CCM view)",
+      "purpose": "Inspect CCM patients enrolled at the practice.",
+      "steps": [],
+      "screenshots": [
+        "f63cbfa5a6285a030922cc74288873c31490a3f6.png"
+      ],
+      "_manualRef": "5.2.6"
+    },
+    {
+      "id": "review-patients-rpm-view",
+      "title": "Review Patients (RPM view)",
+      "purpose": "Inspect RPM patients and latest vitals.",
+      "steps": [],
+      "screenshots": [
+        "a8534c3be87aefc1e07cb2a6640db1316879adca.png"
+      ],
+      "_manualRef": "5.2.7"
+    },
+    {
+      "id": "review-system-caregivers-assigned-to-the-practice",
+      "title": "Review System Caregivers Assigned to the Practice",
+      "purpose": "See which platform-level (System) caregivers currently serve the practice.",
+      "steps": [],
+      "screenshots": [
+        "8830a3b47a904e855bc4d40b86c01a2872ccde09.png"
+      ],
+      "_manualRef": "5.2.8"
+    },
+    {
+      "id": "inspect-rpm-program-detail",
+      "title": "Inspect RPM Program Detail",
+      "purpose": "View the RPM-specific enrollment window and contacts.",
+      "steps": [],
+      "screenshots": [
+        "fdc8e6916199ab807cf4a2731f3c9362153c8b30.png"
+      ],
+      "_manualRef": "5.2.9"
+    },
+    {
+      "id": "configure-schedule-blood-pressure-targets",
+      "title": "Configure Schedule & Blood Pressure Targets",
+      "purpose": "Define the practice's daily schedule and per-window BP target ranges.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Schedule & Targets",
+          "description": "Open Schedule & Targets.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Daily Schedule Times",
+          "description": "Set Wake-up, Breakfast, Lunch, Dinner, Bedtime times in the Daily Schedule.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set BP Target Ranges",
+          "description": "For each measurement window (Wake-up, Morning, Noon, Afternoon, Evening) set the target Systolic and Diastolic ranges.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save Changes",
+          "description": "Save.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "3d1a32a496bf06fade1f71f8e856866e31391d80.png"
+      ],
+      "_manualRef": "5.2.10"
+    },
+    {
+      "id": "bulk-import-patients",
+      "title": "Bulk-Import Patients",
+      "purpose": "Enrollment is where new practices are provisioned on eVitals. A single scrollable form captures Practice Detail, Admin Detail, Practice Settings, and Care Program Billing Cycles.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Import Patients Screen",
+          "description": "Open the Import Patients screen for the target practice.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Select Provider",
+          "description": "Select the receiving Provider from the dropdown.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Select Caregiver",
+          "description": "Select the receiving Caregiver from the dropdown.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Upload Patient File",
+          "description": "Click Upload CSV/Excel and choose the prepared file.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Import & Review Errors",
+          "description": "Click Import to run the upload; review any row-level errors returned.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "e61dbf6b59d3a29724c984b78cb69b4fcb03e418.png"
+      ],
+      "_manualRef": "5.2.11"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "practice list",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "practice-list"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "browse-search-practices",
+      "title": "Browse & Search Practices"
+    },
+    {
+      "id": "open-the-practice-tab",
+      "title": "Open the Practice Tab"
+    },
+    {
+      "id": "manage-practice-admins",
+      "title": "Manage Practice Admins"
+    },
+    {
+      "id": "manage-providers",
+      "title": "Manage Providers"
+    },
+    {
+      "id": "manage-caregivers",
+      "title": "Manage Caregivers"
+    },
+    {
+      "id": "review-patients-ccm-view",
+      "title": "Review Patients (CCM view)"
+    },
+    {
+      "id": "review-patients-rpm-view",
+      "title": "Review Patients (RPM view)"
+    },
+    {
+      "id": "review-system-caregivers-assigned-to-the-practice",
+      "title": "Review System Caregivers Assigned to the Practice"
+    },
+    {
+      "id": "inspect-rpm-program-detail",
+      "title": "Inspect RPM Program Detail"
+    },
+    {
+      "id": "configure-schedule-blood-pressure-targets",
+      "title": "Configure Schedule & Blood Pressure Targets"
+    },
+    {
+      "id": "bulk-import-patients",
+      "title": "Bulk-Import Patients"
+    }
+  ],
+  "screenshots": []
+}

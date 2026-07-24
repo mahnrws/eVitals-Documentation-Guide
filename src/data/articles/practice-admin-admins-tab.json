@@ -1,0 +1,125 @@
+{
+  "id": "practice-admin-admins-tab",
+  "title": "Admins Tab",
+  "description": "Admins Tab documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Admins Tab",
+      "href": "/docs/practice-admin/practice-admin-admins-tab"
+    }
+  ],
+  "module": "Admins Tab",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "9 minutes",
+  "overview": "This guide covers admins tab workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "review-the-practice-admins-list",
+      "title": "Review the Practice Admins list",
+      "purpose": "See every Practice Admin attached to this practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Admins Tab",
+          "description": "Click the Admins tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search Practice Admins",
+          "description": "Use the Search admins\u2026 box to filter by name / email.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Filter by Status",
+          "description": "Use the All Status dropdown to filter by Active / Inactive.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Sort Admins List",
+          "description": "Sort by any column header (Status, Name, etc.).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Review Admin Audit Logs",
+          "description": "Click Event Logs at the bottom to see admin-related audit events. Notes The Status chip shows the initial of the state (A = Active, I = Inactive). Deleting the last Active admin is blocked to prevent lock-out.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-70.png"
+      ],
+      "_manualRef": "7.3.1"
+    },
+    {
+      "id": "add-a-practice-admin",
+      "title": "Add a Practice Admin",
+      "purpose": "Provision a new Practice Admin for the current practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Add Practice Admin",
+          "description": "Click + Add Practice Admin (top-right).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fill Admin Details",
+          "description": "Fill in Name, Address, Home Phone, Cell Phone, Fax, Email and Username.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Initial Status",
+          "description": "Set the initial Status (typically Active).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save Admin",
+          "description": "Click Save. Notes Email must be unique across eVitals \u2014 reusing an address is blocked. Use the View (eye), Edit (pencil) and Delete (trash) icons in the Action column to manage existing rows. Task 7.4 \u2014 Providers Tab",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "7.3.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "admins tab",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "admins-tab"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-the-practice-admins-list",
+      "title": "Review the Practice Admins list"
+    },
+    {
+      "id": "add-a-practice-admin",
+      "title": "Add a Practice Admin"
+    }
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,187 @@
+{
+  "id": "system-admin-permission-role-based-access",
+  "title": "Permission (Role-Based Access)",
+  "description": "Permission (Role-Based Access) documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "Permission (Role-Based Access)",
+      "href": "/docs/system-admin/system-admin-permission-role-based-access"
+    }
+  ],
+  "module": "Permission (Role-Based Access)",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "15 minutes",
+  "overview": "This guide covers permission (role-based access) workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "review-the-role-list",
+      "title": "Review the Role List",
+      "purpose": "See every role defined in the system and its Role Id.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Roles List",
+          "description": "Click Permission in the left sidebar \u2014 the Roles sub-page opens by default.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Sort Roles List",
+          "description": "Sort by Role Id or Role Name using the arrow indicators in the column headers.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Search Roles List",
+          "description": "Use the Search box to filter by role name.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Page Through Roles",
+          "description": "Use Show entries / pager to navigate long lists. Notes Built-in roles include Super Admin, Admin, Practice Admin, Provider, Practice CareGiver, Patient and System Caregiver. Custom roles (e.g. superadminrole) appear beneath the built-in roles and can be edited or reassigned freely. The Super Admin role has no \u201cassign user\u201d icon because it is provisioned during initial system setup only.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-68.png"
+      ],
+      "_manualRef": "6.11.1"
+    },
+    {
+      "id": "add-a-new-role",
+      "title": "Add a new role",
+      "purpose": "Create a custom role with its own permission set.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Add New Role",
+          "description": "Click Add Role (top-right).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Role Name",
+          "description": "Enter the Role Name.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Select Module Permissions",
+          "description": "Select the module-level permissions (View, Create, Edit, Delete) for every applicable module.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save New Role",
+          "description": "Click Save. Notes Role Ids are assigned automatically and are immutable. Renaming a role does not change the permissions already granted to users holding that role.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.11.2"
+    },
+    {
+      "id": "edit-permissions-for-a-role-pencil-icon",
+      "title": "Edit permissions for a role (pencil icon)",
+      "purpose": "Adjust the module-level permissions granted to a role.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Edit Permissions",
+          "description": "On the target row, click the green pencil icon in the Action column.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Toggle Module Rights",
+          "description": "On the permissions matrix, tick / untick each module-level right (View, Create, Edit, Delete, Export, etc.).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Save Role Permissions",
+          "description": "Click Save. Notes Removing a permission is enforced immediately \u2014 users may see \u201cAccess denied\u201d on pages they previously reached. The Super Admin role is intentionally uneditable to prevent lock-out.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.11.3"
+    },
+    {
+      "id": "assign-users-to-a-role-assign-user-icon",
+      "title": "Assign users to a role (assign-user icon)",
+      "purpose": "Grant or revoke a role for specific users.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Assign Users",
+          "description": "On the target row, click the person-with-plus icon in the Action column.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search for Users",
+          "description": "In the assign panel, search for users by name, username or email.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Grant or Revoke Role",
+          "description": "Tick the users to grant the role, or untick to revoke.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save Role Assignment",
+          "description": "Click Save. Notes A user can hold multiple roles; effective permissions are the union of all held roles. Revoking a role does not delete the user account \u2014 it only removes that permission set. 7. Practice Admin Task 7.1 \u2014 Dashboard (Practice Landing)",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.11.4"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "permission (role-based access)",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "permission-role-based-access"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-the-role-list",
+      "title": "Review the Role List"
+    },
+    {
+      "id": "add-a-new-role",
+      "title": "Add a new role"
+    },
+    {
+      "id": "edit-permissions-for-a-role-pencil-icon",
+      "title": "Edit permissions for a role (pencil icon)"
+    },
+    {
+      "id": "assign-users-to-a-role-assign-user-icon",
+      "title": "Assign users to a role (assign-user icon)"
+    }
+  ],
+  "screenshots": []
+}

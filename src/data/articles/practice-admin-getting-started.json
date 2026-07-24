@@ -1,0 +1,141 @@
+{
+  "id": "practice-admin-getting-started",
+  "title": "Getting Started",
+  "description": "Getting Started documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Getting Started",
+      "href": "/docs/practice-admin/practice-admin-getting-started"
+    }
+  ],
+  "module": "Getting Started",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "11 minutes",
+  "overview": "This guide covers getting started workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "sign-in",
+      "title": "Sign In",
+      "purpose": "Establish an authenticated session against a user's role.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Login Page",
+          "description": "Open the eVitals login URL.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Email Address",
+          "description": "Enter your registered email address in the Email field.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Enter Password",
+          "description": "Enter your password in the Password field.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Enable Remember Me",
+          "description": "(Optional) Tick Remember me to keep the email pre-filled on this device.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Click Sign In",
+          "description": "Click Sign In.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Verify Two-Factor Code",
+          "description": "If two-factor authentication is enabled on the account, enter the OTP delivered by email and click Verify.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-119.png"
+      ],
+      "_manualRef": "4.1"
+    },
+    {
+      "id": "forgot-password",
+      "title": "Forgot Password",
+      "purpose": "Reset the account password when the user cannot sign in.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Click Forgot Password",
+          "description": "Click Forgot Password? on the login page.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Submit Account Email",
+          "description": "Enter the account email and submit.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Open Reset Email",
+          "description": "Open the E-Vitals Password Reset Request email (see 18. Email Logs to audit).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Set New Password",
+          "description": "Follow the reset link and enter a new password meeting the strength criteria.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Sign In With New Password",
+          "description": "Return to the login page and sign in with the new password.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-120.png"
+      ],
+      "_manualRef": "4.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "getting started",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "getting-started"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "sign-in",
+      "title": "Sign In"
+    },
+    {
+      "id": "forgot-password",
+      "title": "Forgot Password"
+    }
+  ],
+  "screenshots": [
+    "evitals_shot_image-94.png"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "super-admin-permission",
+  "title": "Permission",
+  "description": "Permission documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Permission",
+      "href": "/docs/super-admin/super-admin-permission"
+    }
+  ],
+  "module": "Permission",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "2 minutes",
+  "overview": "This guide covers permission workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "browse-roles",
+      "title": "Browse Roles",
+      "purpose": "Email Logs is the platform-wide audit trail of every outbound email eVitals has sent \u2014 OTPs, password resets, support tickets, system alerts.",
+      "steps": [],
+      "screenshots": [
+        "0731840e3313778ad7d765b1ab722782d2d6fc34.png"
+      ],
+      "_manualRef": "5.12.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "permission",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "permission"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "browse-roles",
+      "title": "Browse Roles"
+    }
+  ],
+  "screenshots": []
+}

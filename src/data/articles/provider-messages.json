@@ -1,0 +1,100 @@
+{
+  "id": "provider-messages",
+  "title": "Messages",
+  "description": "Messages documentation for Provider.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/provider"
+    },
+    {
+      "label": "Messages",
+      "href": "/docs/provider/provider-messages"
+    }
+  ],
+  "module": "Messages",
+  "category": "Provider",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "7 minutes",
+  "overview": "This guide covers messages workflows for Provider.",
+  "subtasks": [
+    {
+      "id": "messages-secure-in-app-collaboration",
+      "title": "Messages (secure in-app collaboration)",
+      "purpose": "Send and receive HIPAA-scoped in-app messages with practice peers and caregivers, with patient-context vitals visible in the reading pane.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Messages",
+          "description": "Click Messages in the sidebar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Filter Message Threads",
+          "description": "Use the tabs to filter Unread / Flagged / All threads.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Open a Thread",
+          "description": "Click a thread in the list to open it in the reading pane.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Read Vital Snapshot",
+          "description": "Read the Focused Vital Snapshot (right side) for the patient tied to the thread.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Reply to Message",
+          "description": "Type a reply in the composer and click Send.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Compose New Message",
+          "description": "Click + New Message to compose \u2014 pick recipient(s), optionally link a patient, add subject and body, then Send.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Flag or Archive Thread",
+          "description": "Flag, mark unread or archive a thread from the action bar above the reading pane. Notes Messages are patient-context aware \u2014 linking a patient to a thread exposes recent vitals in the Focused Vital Snapshot panel. Threads are retained per practice retention policy; nothing is deleted permanently within the standard retention window. Task 8.7 \u2014 Settings",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-117.png"
+      ],
+      "_manualRef": "8.6.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "messages",
+    "provider"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Provider",
+    "tags": [
+      "provider",
+      "messages"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "messages-secure-in-app-collaboration",
+      "title": "Messages (secure in-app collaboration)"
+    }
+  ],
+  "screenshots": []
+}

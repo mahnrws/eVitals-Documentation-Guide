@@ -1,0 +1,203 @@
+{
+  "id": "system-admin-patient-management",
+  "title": "Patient Management",
+  "description": "Patient Management documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "Patient Management",
+      "href": "/docs/system-admin/system-admin-patient-management"
+    }
+  ],
+  "module": "Patient Management",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "19 minutes",
+  "overview": "This guide covers patient management workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "look-up-patient-general-search",
+      "title": "Look Up Patient (general search)",
+      "purpose": "Locate a patient across every practice using demographic and organisational filters.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Lookup Patient",
+          "description": "Click Patient Mgmt in the sidebar, then choose Lookup Patient from the fly-out menu.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Search Criteria",
+          "description": "Enter any combination of Last Name, First Name, and pick Practice, Provider, Caregiver and Status from the dropdowns.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Run or Reset Search",
+          "description": "Click Query to run the search, or Reset to clear the filters.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Review Vitals Chips",
+          "description": "Review results in the table \u2014 Vitals chips show which measurement types (BP, BG, WT) are being monitored.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Filter Search Results",
+          "description": "Use the Search box (top-right) for further in-table filtering. Notes Leaving all filters blank returns an empty grid; at least one filter must be supplied before Query runs. This screen shows the latest vital readings \u2014 for date-scoped billing views use 6.6.2 (RPM) or 6.6.3 (CCM).",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-57.png",
+        "evitals_shot_image-58.png"
+      ],
+      "_manualRef": "6.6.1"
+    },
+    {
+      "id": "look-up-patient-by-rpm-date",
+      "title": "Look Up Patient (By RPM Date)",
+      "purpose": "Report RPM service activity for a practice over a chosen date range, including CPT eligibility.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open RPM Lookup",
+          "description": "Click Patient Mgmt in the sidebar, then choose Lookup Patient (by RPM date).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Select a Practice",
+          "description": "Select a Practice from the dropdown.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pick RPM Date Range",
+          "description": "Pick an RPM Service Date Range (from ~ to).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Load or Reset Results",
+          "description": "Click Query to load results, or Reset to clear.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Sort RPM Results",
+          "description": "Sort by RPM Start Date or any other column via the column header.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Print the Report",
+          "description": "Click Print to send the report to the printer.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Export the Report",
+          "description": "Click Export to download in CSV / Excel format.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Email the Report",
+          "description": "Click Email to send the report to a recipient. Notes Measurement Days counts unique calendar days with at least one qualifying vital upload \u2014 this drives CPT code eligibility (99453 / 99454 / 99457 / 99458). Modal # and Serial # show the device model and serial actively assigned during the reporting window.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-59.png"
+      ],
+      "_manualRef": "6.6.2"
+    },
+    {
+      "id": "look-up-patient-by-ccm-date",
+      "title": "Look Up Patient (By CCM Date)",
+      "purpose": "Report CCM service activity for a practice over a chosen date range with billing status.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open CCM Lookup",
+          "description": "Click Patient Mgmt in the sidebar, then choose Lookup Patient (by CCM date).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Select a Practice",
+          "description": "Select a Practice from the dropdown.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Pick CCM Date Range",
+          "description": "Pick a CCM Service Date Range (from ~ to).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Load or Reset Results",
+          "description": "Click Query to load results, or Reset to clear.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Sort CCM Results",
+          "description": "Sort by Enrollment Date or any other column.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Distribute the Report",
+          "description": "Click Print, Export or Email to distribute the report. Notes Billing = Pending means the patient qualifies but has not been billed for the current cycle; Locked means the billing has already been finalised. Chronic Conditions lists the ICD diagnoses that qualify the patient for CCM (e.g. Alzheimer\u2019s Disease / Dementia, Arthritis). Task 6.7 \u2014 Care Management",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-60.png"
+      ],
+      "_manualRef": "6.6.3"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "patient management",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "patient-management"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "look-up-patient-general-search",
+      "title": "Look Up Patient (general search)"
+    },
+    {
+      "id": "look-up-patient-by-rpm-date",
+      "title": "Look Up Patient (By RPM Date)"
+    },
+    {
+      "id": "look-up-patient-by-ccm-date",
+      "title": "Look Up Patient (By CCM Date)"
+    }
+  ],
+  "screenshots": []
+}

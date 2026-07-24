@@ -1,0 +1,82 @@
+{
+  "id": "practice-caregiver-care-management",
+  "title": "Care Management",
+  "description": "Care Management documentation for Practice Caregiver.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-caregiver"
+    },
+    {
+      "label": "Care Management",
+      "href": "/docs/practice-caregiver/practice-caregiver-care-management"
+    }
+  ],
+  "module": "Care Management",
+  "category": "Practice Caregiver",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "4 minutes",
+  "overview": "This guide covers care management workflows for Practice Caregiver.",
+  "subtasks": [
+    {
+      "id": "follow-up-query",
+      "title": "Follow Up Query",
+      "purpose": "Identify patients due for follow-up based on program, provider, caregiver, and status filters.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Open Care Mgmt \u2192 Follow Up Query \u2014 the filter form loads with Last / First Name, Program Enrolled (required), Provider, Caregiver, and Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Set Program Enrolled and any narrowing filters, then click Query \u2014 the grid renders #, Status, Vitals, Name, Systolic, Diastolic, Pulse, Glucose, Weight, Last Upload, # Readings, Time, and Action.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Use Action buttons on a row to open the patient chart and complete or reschedule the follow-up.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "Click Reset to clear filters. The empty state message \u201cSelect filters and click Query to load patients\u201d confirms no query has been run yet.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image10.png"
+      ],
+      "_manualRef": "9.3.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "care management",
+    "practice caregiver"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Caregiver",
+    "tags": [
+      "practice-caregiver",
+      "care-management"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "follow-up-query",
+      "title": "Follow Up Query"
+    }
+  ],
+  "screenshots": []
+}

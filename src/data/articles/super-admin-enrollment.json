@@ -1,0 +1,122 @@
+{
+  "id": "super-admin-enrollment",
+  "title": "Enrollment",
+  "description": "Enrollment documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Enrollment",
+      "href": "/docs/super-admin/super-admin-enrollment"
+    }
+  ],
+  "module": "Enrollment",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "7 minutes",
+  "overview": "This guide covers enrollment workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "add-a-new-practice",
+      "title": "Add a New Practice",
+      "purpose": "Provision a new practice and its first admin in one form.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Navigate to Add Practice",
+          "description": "Sidebar \u2192 Enrollment \u2192 + Add Practice.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fill Practice Details",
+          "description": "Fill Practice Detail: name, type, status, tax ID, email, address.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Fill Admin Details",
+          "description": "Fill Admin Detail: first/last name, email, phone, username, password (meeting criteria), 2FA toggle.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Choose Email Preferences",
+          "description": "Under Practice Settings, choose Email Notification preferences.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Set Billing Cycle Dates",
+          "description": "Under Care Program Billing Cycles, set RPM and CCM start date, billing cycle length (days), and end date.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Save Practice",
+          "description": "Click Save.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "2d7b0a18cdac4574d8587ddf1d2754ce61bb720e.png"
+      ],
+      "_manualRef": "5.3.1"
+    },
+    {
+      "id": "configure-practice-settings",
+      "title": "Configure Practice Settings",
+      "purpose": "Turn on transactional email notifications for the practice.",
+      "steps": [],
+      "screenshots": [
+        "6b4d43352338bbd0b58fa14060312f40da1e5a61.png"
+      ],
+      "_manualRef": "5.3.2"
+    },
+    {
+      "id": "configure-care-program-billing-cycles",
+      "title": "Configure Care Program Billing Cycles",
+      "purpose": "The Admins module is the master list of every organisation-level administrator on the platform. From here the Super Admin can inspect coverage (how many practices each admin oversees) and add new admins.",
+      "steps": [],
+      "screenshots": [
+        "027b97e889c5287543afc5ad5b34431a06a95957.png"
+      ],
+      "_manualRef": "5.3.3"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "enrollment",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "enrollment"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "add-a-new-practice",
+      "title": "Add a New Practice"
+    },
+    {
+      "id": "configure-practice-settings",
+      "title": "Configure Practice Settings"
+    },
+    {
+      "id": "configure-care-program-billing-cycles",
+      "title": "Configure Care Program Billing Cycles"
+    }
+  ],
+  "screenshots": []
+}

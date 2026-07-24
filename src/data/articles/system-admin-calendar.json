@@ -1,0 +1,209 @@
+{
+  "id": "system-admin-calendar",
+  "title": "Calendar",
+  "description": "Calendar documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "Calendar",
+      "href": "/docs/system-admin/system-admin-calendar"
+    }
+  ],
+  "module": "Calendar",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "20 minutes",
+  "overview": "This guide covers calendar workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "configure-visit-types",
+      "title": "Configure Visit Types",
+      "purpose": "Define the appointment types (name, description, duration, colour) that can be booked on the calendar.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Visit Types",
+          "description": "Click Calendar in the left sidebar, then choose Visit Type from the Calendar Setting fly-out.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Check for Duplicate Type",
+          "description": "Use the Search box to check whether a similar visit type already exists.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Add Visit Type",
+          "description": "Click + Add Visit Type (top-right).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Enter Visit Type Details",
+          "description": "Enter Practice Name, Visit Type, Visit Type Description, Duration (minutes), Status and pick a Color swatch.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Save Visit Type",
+          "description": "Click Save to add it to the list.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Edit or Delete Visit Type",
+          "description": "Use the row Action icons to edit or delete an existing visit type. Notes Colour drives the appointment block colour on the Calendar view \u2014 pick contrasting shades for adjacent visit types. Duration is the default block length; individual bookings can still be resized when scheduling. An empty list shows the \u201cNo visit types found\u201d placeholder until the first entry is saved.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-62.png",
+        "evitals_shot_image-63.png"
+      ],
+      "_manualRef": "6.8.1"
+    },
+    {
+      "id": "configure-working-hours-office-hours",
+      "title": "Configure Working Hours (Office Hours)",
+      "purpose": "Set the practice\u2019s bookable office hours for each day of the week within a date range.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Working Hours",
+          "description": "Click Calendar \u2192 Working Hours.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Schedule Window",
+          "description": "Under Office Hours, set the Start Date (required) and optional End Date for the schedule window.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Tick Open Days",
+          "description": "Tick the checkbox next to each day the practice is open (Sun\u2013Sat).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Set Start & End Times",
+          "description": "For each active day, adjust the Start Time and End Time (default 09:00 AM \u2013 05:00 PM).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Add Extra Time Block",
+          "description": "Click the green + in the Action column to add an additional time block (e.g. split shift) on that day.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Save Working Hours",
+          "description": "Click Save to publish the schedule. Notes Days left unchecked are treated as closed \u2014 no appointments can be booked on those days. Leaving End Date blank keeps the schedule active indefinitely until it is edited. Overlapping time blocks on the same day are prevented by validation.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-64.png"
+      ],
+      "_manualRef": "6.8.2"
+    },
+    {
+      "id": "use-the-calendar-view",
+      "title": "Use the Calendar view",
+      "purpose": "Browse the appointment grid, pick a slot granularity, and view assignments by caregiver.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Calendar View",
+          "description": "Click Calendar \u2192 Calendar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Navigate Between Months",
+          "description": "Use the \u00ab / \u00bb arrows at the top of the month grid to move between months.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Select a Date",
+          "description": "Click any date to load that day\u2019s slot list in the right-hand panel.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Change Slot Granularity",
+          "description": "Change the slot granularity via the dropdown (default 15 Minutes; other options available).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Refresh Appointments",
+          "description": "Click the refresh icon to reload appointments after external changes.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Toggle Week/List View",
+          "description": "Toggle Week / List (top-right) to switch between weekly grid and vertical list layouts.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Overlay Caregiver Bookings",
+          "description": "In the System Caregivers panel, tick one or more caregivers to overlay their bookings on the grid.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Clear or Reset Date",
+          "description": "Click Clear to remove any date filter, or Today to jump back to the current date. Notes If \u201cNo working hours available for this day\u201d is shown, revisit 6.8.2 and enable the day or extend the date range. The date shown in the right-hand header (e.g. July 22, 2026) reflects the currently selected calendar cell. Ticking a caregiver adds their name to the visible legend so overlapping appointments can be distinguished by colour. Task 6.9 \u2014 Programs",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-65.png"
+      ],
+      "_manualRef": "6.8.3"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "calendar",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "calendar"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "configure-visit-types",
+      "title": "Configure Visit Types"
+    },
+    {
+      "id": "configure-working-hours-office-hours",
+      "title": "Configure Working Hours (Office Hours)"
+    },
+    {
+      "id": "use-the-calendar-view",
+      "title": "Use the Calendar view"
+    }
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,96 @@
+{
+  "id": "super-admin-care-management",
+  "title": "Care Management",
+  "description": "Care Management documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Care Management",
+      "href": "/docs/super-admin/super-admin-care-management"
+    }
+  ],
+  "module": "Care Management",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "5 minutes",
+  "overview": "This guide covers care management workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "open-the-care-mgmt-menu",
+      "title": "Open the Care Mgmt Menu",
+      "purpose": "",
+      "steps": [],
+      "screenshots": [
+        "8afef034d504e92b3d88f38e33f080d48162e57f.png"
+      ],
+      "_manualRef": "5.9.1"
+    },
+    {
+      "id": "run-a-follow-up-query",
+      "title": "Run a Follow-Up Query",
+      "purpose": "The Calendar module defines what a visit is, when caregivers are working, and provides the visual schedule grid used to book patients.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Navigate to Follow-Up",
+          "description": "Sidebar \u2192 Care Mgmt \u2192 Follow up.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Filter Follow-Up Query",
+          "description": "Filter by Last Name, First Name, Practice, Provider, Caregiver, Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Run the Query",
+          "description": "Run the query; the grid returns vitals coverage and upload stats per patient.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Act on Patient Rows",
+          "description": "Act on rows (contact patient / assign caregiver) from the grid.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "d771885f9a20d842c26218766625dc37b4378cf7.png"
+      ],
+      "_manualRef": "5.9.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "care management",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "care-management"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "open-the-care-mgmt-menu",
+      "title": "Open the Care Mgmt Menu"
+    },
+    {
+      "id": "run-a-follow-up-query",
+      "title": "Run a Follow-Up Query"
+    }
+  ],
+  "screenshots": []
+}

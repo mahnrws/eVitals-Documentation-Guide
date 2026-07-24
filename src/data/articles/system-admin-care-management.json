@@ -1,0 +1,88 @@
+{
+  "id": "system-admin-care-management",
+  "title": "Care Management",
+  "description": "Care Management documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "Care Management",
+      "href": "/docs/system-admin/system-admin-care-management"
+    }
+  ],
+  "module": "Care Management",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "5 minutes",
+  "overview": "This guide covers care management workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "follow-up-query",
+      "title": "Follow Up Query",
+      "purpose": "Identify patients who require a follow-up call based on the most recent vital readings and demographic filters.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Follow-Up Query",
+          "description": "Click Care Mgmt in the sidebar, then choose Follow Up.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Filter Follow-Up Criteria",
+          "description": "Filter by Last Name, First Name, Practice, Provider, Caregiver and Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Run or Reset Search",
+          "description": "Click Query to run the search, or Reset to clear the filters.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Review Activity Columns",
+          "description": "Review results \u2014 the # Readings and Time columns highlight patients with recent activity that may warrant intervention.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Log a Follow-Up Action",
+          "description": "Use the Action column on each row to log a follow-up call, note or task. Notes Follow Up Query surfaces patients based on latest-reading thresholds and activity \u2014 combine with Patient Mgmt reports for full billing context. Selecting a Caregiver filter narrows to that caregiver\u2019s panel, which is useful for daily huddles. Task 6.8 \u2014 Calendar",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-61.png"
+      ],
+      "_manualRef": "6.7.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "care management",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "care-management"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "follow-up-query",
+      "title": "Follow Up Query"
+    }
+  ],
+  "screenshots": []
+}

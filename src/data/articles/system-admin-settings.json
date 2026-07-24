@@ -1,0 +1,162 @@
+{
+  "id": "system-admin-settings",
+  "title": "Settings",
+  "description": "Settings documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "Settings",
+      "href": "/docs/system-admin/system-admin-settings"
+    }
+  ],
+  "module": "Settings",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "13 minutes",
+  "overview": "This guide covers settings workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "account-settings",
+      "title": "Account Settings",
+      "purpose": "Review personal account details, change session timeout, toggle two-factor authentication and clear browser cache.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Account Settings",
+          "description": "Click Settings in the left sidebar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "View Default Tab",
+          "description": "The Account Setting tab is selected by default.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review Account Fields",
+          "description": "Review the read-only fields: Full Name, Username, Email, Phone, Fax, Current Session Time.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Update Session Timeout",
+          "description": "To change how long a session stays alive when idle, enter a new value in Session Time (minutes) and click Update.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Toggle Two-Factor Auth",
+          "description": "Click the red Two Way Authentication chip to enable / disable 2FA (the label toggles between Enabled and Disabled).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Refresh Cached Data",
+          "description": "Click Refresh next to Clear Cache to purge locally cached data if pages appear stale. Notes Session Time controls the automatic sign-out window \u2014 reducing it improves security on shared workstations. When 2FA is enabled, subsequent sign-ins require a one-time code delivered via email. Fields shown as Not Available (e.g. Fax) can be filled in from the user profile in the Permission \u2192 Users flow.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-67.png"
+      ],
+      "_manualRef": "6.10.1"
+    },
+    {
+      "id": "follow-up-setting",
+      "title": "Follow Up Setting",
+      "purpose": "Configure the default thresholds and cadence that drive the Care Mgmt \u2192 Follow Up Query.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Follow-Up Setting",
+          "description": "Click Settings, then the Follow Up Setting tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Follow-Up Thresholds",
+          "description": "Set the default thresholds (e.g. minimum days since last upload, minimum readings) that flag a patient for follow-up.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Recontact Cadence",
+          "description": "Set the default recontact cadence and any escalation window.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save Follow-Up Setting",
+          "description": "Click Save to apply. Notes These values pre-populate the Follow Up Query filters but can be overridden per-query.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.10.2"
+    },
+    {
+      "id": "calendar-permission-settings",
+      "title": "Calendar Permission Settings",
+      "purpose": "Control which roles can view, book on, or manage the calendar.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Calendar Permissions",
+          "description": "Click Settings, then the Calendar Permission Settings tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Role Calendar Actions",
+          "description": "For each role, tick the calendar actions to allow (View, Book, Reschedule, Cancel, Manage Working Hours, Manage Visit Types).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Save Calendar Permissions",
+          "description": "Click Save. Notes These settings layer on top of the general role permissions from the Permission module \u2014 the calendar honours whichever is more restrictive. Task 6.11 \u2014 Permission (Role-Based Access)",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.10.3"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "settings",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "settings"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "account-settings",
+      "title": "Account Settings"
+    },
+    {
+      "id": "follow-up-setting",
+      "title": "Follow Up Setting"
+    },
+    {
+      "id": "calendar-permission-settings",
+      "title": "Calendar Permission Settings"
+    }
+  ],
+  "screenshots": []
+}

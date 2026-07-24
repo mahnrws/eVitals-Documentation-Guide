@@ -1,0 +1,100 @@
+{
+  "id": "provider-settings",
+  "title": "Settings",
+  "description": "Settings documentation for Provider.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/provider"
+    },
+    {
+      "label": "Settings",
+      "href": "/docs/provider/provider-settings"
+    }
+  ],
+  "module": "Settings",
+  "category": "Provider",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "7 minutes",
+  "overview": "This guide covers settings workflows for Provider.",
+  "subtasks": [
+    {
+      "id": "account-setting",
+      "title": "Account Setting",
+      "purpose": "Maintain the Provider\u2019s personal account details \u2014 profile, password, session timeout and 2FA.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Account Setting",
+          "description": "Click Settings in the sidebar (Account Setting tab is preselected).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Update Profile Fields",
+          "description": "Update profile fields \u2014 Name, Email, Phone, Address.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Change Password",
+          "description": "Change Password \u2014 enter current password, new password (twice) and Save.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Set Session Timeout",
+          "description": "Set Session Timeout (minutes of inactivity before auto-logout).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Toggle Two-Factor Auth",
+          "description": "Toggle Two-Factor Authentication and follow the enrolment steps (authenticator app / SMS).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Save Settings",
+          "description": "Click Save to persist the tab. Notes Session Timeout is capped by the practice-wide policy \u2014 the value here cannot exceed the practice maximum. Enabling 2FA is strongly recommended and may be enforced by the practice. Provider coverage now spans Dashboard and the full Practice Detail workspace (Practice, Admins, Providers, Caregivers, Patients \u2014 RPM & CCM views, System Caregivers, RPM, Schedule & Targets \u2014 Daily Schedule / BP / Glucose / Weight, and Import Patients). Sidebar volumes for Patient Management, Care Management, Calendar, Messages and Settings scoped to the Provider role, followed by the Practice Caregiver and System Caregiver role volumes, will be added in subsequent revisions. 9. Practice Caregiver",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Practice Caregiver \u2014 a practice-employed clinician who monitors enrolled patients, runs follow-up queries, coordinates via messaging, and maintains their own account settings. The Practice Caregiver workspace is scoped",
+          "description": "it exposes patient management, care management, messages, and settings, but does not include Admins, Providers, Inventory, Billing, Calendar, Programs, or Permissions modules. Task 9.1 \u2014 Dashboard",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-118.png"
+      ],
+      "_manualRef": "8.7.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "settings",
+    "provider"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Provider",
+    "tags": [
+      "provider",
+      "settings"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "account-setting",
+      "title": "Account Setting"
+    }
+  ],
+  "screenshots": []
+}

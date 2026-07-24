@@ -1,0 +1,119 @@
+{
+  "id": "practice-admin-providers-tab",
+  "title": "Providers Tab",
+  "description": "Providers Tab documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Providers Tab",
+      "href": "/docs/practice-admin/practice-admin-providers-tab"
+    }
+  ],
+  "module": "Providers Tab",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "8 minutes",
+  "overview": "This guide covers providers tab workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "review-the-providers-list",
+      "title": "Review the Providers list",
+      "purpose": "See every provider (physician / NP) attached to the practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Providers Tab",
+          "description": "Click the Providers tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search or Filter Providers",
+          "description": "Use the Search providers\u2026 box or All Status filter to narrow the list.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sort Providers List",
+          "description": "Click column headers to sort ascending / descending.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "View, Edit, or Delete Provider",
+          "description": "Use the view / edit / delete icons per row. Notes Providers are the billing / signing clinicians; they must exist before patients can be assigned to them under Patients.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-71.png"
+      ],
+      "_manualRef": "7.4.1"
+    },
+    {
+      "id": "add-a-provider",
+      "title": "Add a Provider",
+      "purpose": "Register a new provider under the practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Add a Provider",
+          "description": "Click + Add Providers (top-right).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Provider Details",
+          "description": "Enter Name, credentials, NPI, Address, Home Phone, Cell Phone, Fax, Email and Username.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Provider Status",
+          "description": "Set Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save Provider",
+          "description": "Click Save. Notes Provider email drives system notifications (missed uploads, follow-ups) and must be unique. Task 7.5 \u2014 Caregivers Tab",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "7.4.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "providers tab",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "providers-tab"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-the-providers-list",
+      "title": "Review the Providers list"
+    },
+    {
+      "id": "add-a-provider",
+      "title": "Add a Provider"
+    }
+  ],
+  "screenshots": []
+}

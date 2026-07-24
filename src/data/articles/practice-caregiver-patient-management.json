@@ -1,0 +1,213 @@
+{
+  "id": "practice-caregiver-patient-management",
+  "title": "Patient Management",
+  "description": "Patient Management documentation for Practice Caregiver.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-caregiver"
+    },
+    {
+      "label": "Patient Management",
+      "href": "/docs/practice-caregiver/practice-caregiver-patient-management"
+    }
+  ],
+  "module": "Patient Management",
+  "category": "Practice Caregiver",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "20 minutes",
+  "overview": "This guide covers patient management workflows for Practice Caregiver.",
+  "subtasks": [
+    {
+      "id": "add-new-patient-3-step-enrolment-wizard",
+      "title": "Add New Patient (3-step enrolment wizard)",
+      "purpose": "Enrol a new patient into CCM and/or RPM under the caregiver\u2019s practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Click + Add Patient (from the dashboard) or Patient Mgmt \u2192 Add New Patient \u2014 the \u201cLet\u2019s enroll the patient\u201d modal opens on the Demographics step.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Demographics: fill Title, First / Middle / Last Name, Gender, Date Of Birth, SSN (required), Home / Cell Phone, and optional Fax. Scroll to Account Credentials to set the login (if the patient will use the mobile app).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Click Next to advance to Programs \u2014 pick CCM, RPM, or both; assign the Provider and Practice Caregiver responsible for the patient.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "Click Next to advance to RPM (shown only when RPM is selected) \u2014 pair the device modal / serial and set the RPM start date.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Step 5",
+          "description": "Review and submit \u2014 the patient appears in the roster with status A (Active) and the selected program badges (CCM / RPM).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Step 6",
+          "description": "Cancel at any step to discard; the form validates required fields (marked with *) before allowing Next.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image3.png"
+      ],
+      "_manualRef": "9.2.1"
+    },
+    {
+      "id": "lookup-patient-filtered-search",
+      "title": "Lookup Patient (filtered search)",
+      "purpose": "Find patients across the caregiver\u2019s panel using program, provider, caregiver, and status filters.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Open Patient Mgmt \u2192 Lookup Patient \u2014 the filter panel loads with Last Name, First Name, Program Enrolled (required), Provider, Caregiver, and Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Choose the Program Enrolled dropdown (required) \u2014 the query cannot run without it. Optionally narrow by name, Provider, Caregiver, or Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Click Query \u2014 the results grid populates with #, Status, Vitals, Name, Systolic, Diastolic, Pulse, Glucose, Weight, Last Upload, # Readings, and Time.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "Click Reset to clear all filters and start a new search. Use the Search: field at the top-right to further filter the loaded results in-page.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image4.png"
+      ],
+      "_manualRef": "9.2.2"
+    },
+    {
+      "id": "lookup-patient-by-rpm-date",
+      "title": "Lookup Patient (by RPM Date)",
+      "purpose": "List RPM-enrolled patients whose RPM service falls within a chosen date range and export the results.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Open Patient Mgmt \u2192 Lookup Patient (by RPM date) \u2014 the \u201cRPM Service Date Range\u201d filter appears with two mm/dd/yyyy pickers.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Pick the From and To dates and click Query \u2014 the grid shows #, Status, Vitals, Patient Name, DOB, Modal #, Serial #, RPM Start Date, Upload Date/Time, Measurement Days, Service Time, and Eligible CPT Codes.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Sort by any column (e.g. RPM Start Date) using the header arrow; use the top-right Search: to filter loaded rows.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "Use Print to open the print preview, Export to download the roster, or Email to send it to a linked recipient. Reset clears the range and results.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image5.png"
+      ],
+      "_manualRef": "9.2.3"
+    },
+    {
+      "id": "lookup-patient-by-ccm-date",
+      "title": "Lookup Patient (by CCM Date)",
+      "purpose": "List CCM-enrolled patients whose CCM service window falls in a chosen range, with billing status per row.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Open Patient Mgmt \u2192 Lookup Patient (by CCM date) \u2014 the \u201cCCM Service Date Range\u201d picker appears.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Pick From / To dates and click Query \u2014 the grid renders #, Status, Patient Name, DOB, Chronic Conditions, Enrollment Date, Last Activity, Service Time, Eligible CPT Codes, and Billing.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Sort by Enrollment Date (default sort arrow shown) or any other header. Filter loaded rows via the Search: field.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "Use Print / Export / Email to distribute the roster; Reset clears filters and results.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image9.png"
+      ],
+      "_manualRef": "9.2.4"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "patient management",
+    "practice caregiver"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Caregiver",
+    "tags": [
+      "practice-caregiver",
+      "patient-management"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "add-new-patient-3-step-enrolment-wizard",
+      "title": "Add New Patient (3-step enrolment wizard)"
+    },
+    {
+      "id": "lookup-patient-filtered-search",
+      "title": "Lookup Patient (filtered search)"
+    },
+    {
+      "id": "lookup-patient-by-rpm-date",
+      "title": "Lookup Patient (by RPM Date)"
+    },
+    {
+      "id": "lookup-patient-by-ccm-date",
+      "title": "Lookup Patient (by CCM Date)"
+    }
+  ],
+  "screenshots": [
+    "image2.png"
+  ]
+}

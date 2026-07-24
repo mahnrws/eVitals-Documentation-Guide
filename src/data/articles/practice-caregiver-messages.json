@@ -1,0 +1,82 @@
+{
+  "id": "practice-caregiver-messages",
+  "title": "Messages",
+  "description": "Messages documentation for Practice Caregiver.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-caregiver"
+    },
+    {
+      "label": "Messages",
+      "href": "/docs/practice-caregiver/practice-caregiver-messages"
+    }
+  ],
+  "module": "Messages",
+  "category": "Practice Caregiver",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "4 minutes",
+  "overview": "This guide covers messages workflows for Practice Caregiver.",
+  "subtasks": [
+    {
+      "id": "messages-inbox-patient-scoped-conversations",
+      "title": "Messages Inbox (patient-scoped conversations)",
+      "purpose": "Send and receive messages tied to a patient, with vital-snapshot context for the selected patient.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Open Messages \u2014 the inbox loads with the dark navigation rail on the left, tabs All / Unread / Flagged, and a Search conversations box.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Pick a conversation from the list to load the thread in the centre pane; the empty state prompts \u201cSelect a contact from the list or start a new conversation to collaborate.\u201d",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Use the + (floating action button) at the bottom-left to start a new conversation, or the \u22ee menu on the header for filtering / bulk actions.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "On the right, use the Focused Vital Snapshot search to pull a patient\u2019s latest readings into the thread context \u2014 the panel shows \u201cSearch and select a patient to view their vital snapshot context.\u201d",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image11.png"
+      ],
+      "_manualRef": "9.4.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "messages",
+    "practice caregiver"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Caregiver",
+    "tags": [
+      "practice-caregiver",
+      "messages"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "messages-inbox-patient-scoped-conversations",
+      "title": "Messages Inbox (patient-scoped conversations)"
+    }
+  ],
+  "screenshots": []
+}

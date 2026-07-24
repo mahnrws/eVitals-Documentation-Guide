@@ -1,0 +1,86 @@
+{
+  "id": "practice-admin-dashboard-practice-landing",
+  "title": "Dashboard (Practice Landing)",
+  "description": "Dashboard (Practice Landing) documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Dashboard (Practice Landing)",
+      "href": "/docs/practice-admin/practice-admin-dashboard-practice-landing"
+    }
+  ],
+  "module": "Dashboard (Practice Landing)",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "5 minutes",
+  "overview": "This guide covers dashboard (practice landing) workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "sign-in-and-land-on-the-assigned-practice",
+      "title": "Sign in and land on the assigned practice",
+      "purpose": "Open the practice dashboard scoped to the Practice Admin\u2019s single assigned practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Sign In as Practice Admin",
+          "description": "Sign in with Practice Admin credentials at the eVitals login page.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Confirm Welcome Toast",
+          "description": "A green welcome toast (\u201cWelcome back, practice admin!\u201d) confirms the role.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review Enrollment Chips",
+          "description": "The practice name and enrolment chips (e.g. 12 CCM, 30 RPM) appear at the top of the page.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Switch Between Tabs",
+          "description": "Use the tab strip to switch between Practice, Admins, Providers, Caregivers, Patients, System Caregivers, RPM, Schedule & Targets and Import Patients.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Use Sidebar Navigation",
+          "description": "Use the left sidebar (Dashboard, Patient Mgmt, Care Mgmt, Calendar, Messages, Settings) to leave the practice landing. Notes A Practice Admin sees exactly one practice \u2014 the practice they were provisioned against \u2014 so there is no Practice List to pick from. The red dot on sidebar icons signals unread alerts for that module. Task 7.2 \u2014 Practice Tab",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "7.1.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "dashboard (practice landing)",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "dashboard-practice-landing"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "sign-in-and-land-on-the-assigned-practice",
+      "title": "Sign in and land on the assigned practice"
+    }
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "practice-caregiver-dashboard",
+  "title": "Dashboard",
+  "description": "Dashboard documentation for Practice Caregiver.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-caregiver"
+    },
+    {
+      "label": "Dashboard",
+      "href": "/docs/practice-caregiver/practice-caregiver-dashboard"
+    }
+  ],
+  "module": "Dashboard",
+  "category": "Practice Caregiver",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "5 minutes",
+  "overview": "This guide covers dashboard workflows for Practice Caregiver.",
+  "subtasks": [
+    {
+      "id": "caregiver-dashboard-patient-roster-program-stats",
+      "title": "Caregiver Dashboard (patient roster & program stats)",
+      "purpose": "The Patient Mgmt side-menu exposes four workflows: Add New Patient, Lookup Patient, Lookup Patient (by RPM date), and Lookup Patient (by CCM date).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Sign in as a Practice Caregiver \u2014 the workspace lands on the practice header (e.g. \u201cAmir Mobile Test Practices\u201d) with the CCM / RPM enrolment counts under the title.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Read the KPI strip: Total Patients, Active Care Plan (provider approved), Complex Care Plan (attested complex CCM), Items Pending Review (care plan changes awaiting provider), and CPT Billing (99490 / 99491 / 99439 counters).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Use the Search patients by name\u2026 box or the All Status filter to narrow the list; click CCM or RPM to switch program context, or + Add Patient to launch the enrolment wizard.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "For any row, click the eye icon to open the patient chart, or the pencil icon to edit that patient \u2014 the row also surfaces DOB, chronic conditions, last activity, service time, and billing state (e.g. Pending).",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image1.png"
+      ],
+      "_manualRef": "9.1.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "dashboard",
+    "practice caregiver"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Caregiver",
+    "tags": [
+      "practice-caregiver",
+      "dashboard"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "caregiver-dashboard-patient-roster-program-stats",
+      "title": "Caregiver Dashboard (patient roster & program stats)"
+    }
+  ],
+  "screenshots": []
+}

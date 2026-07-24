@@ -1,0 +1,82 @@
+{
+  "id": "system-caregiver-practice",
+  "title": "Practice",
+  "description": "Practice documentation for System Caregiver.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-caregiver"
+    },
+    {
+      "label": "Practice",
+      "href": "/docs/system-caregiver/system-caregiver-practice"
+    }
+  ],
+  "module": "Practice",
+  "category": "System Caregiver",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "5 minutes",
+  "overview": "This guide covers practice workflows for System Caregiver.",
+  "subtasks": [
+    {
+      "id": "practices-list-assigned-practices",
+      "title": "Practices List (assigned practices)",
+      "purpose": "The Patient Mgmt side-menu for a System Caregiver exposes three lookups: Lookup Patient, Lookup Patient (by RPM date), and Lookup Patient (by CCM date). There is no Add New Patient entry \u2014 enrolment is performed by Practice-level roles.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Sign in as a System Caregiver \u2014 the workspace lands on Practices List with columns #, Practice Name, Email, Phone 1, Phone 2, Address, Fax, and Action.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Use the All Programs dropdown (top-right) to filter practices by enrolled program (e.g. CCM, RPM), or the Search box to filter by name / email / phone.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Adjust the Show N entries selector and pager (\u00ab \u2039 Page N of M \u203a \u00bb) at the bottom to page through practices when the caregiver is assigned to many.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "Click the eye icon in the Action column to open the practice detail view \u2014 subsequent Patient Mgmt, Care Mgmt, and Messages actions run in that practice context.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image13.png"
+      ],
+      "_manualRef": "10.1.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "practice",
+    "system caregiver"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Caregiver",
+    "tags": [
+      "system-caregiver",
+      "practice"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "practices-list-assigned-practices",
+      "title": "Practices List (assigned practices)"
+    }
+  ],
+  "screenshots": []
+}

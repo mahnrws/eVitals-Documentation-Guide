@@ -1,0 +1,233 @@
+{
+  "id": "practice-admin-calendar",
+  "title": "Calendar",
+  "description": "Calendar documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Calendar",
+      "href": "/docs/practice-admin/practice-admin-calendar"
+    }
+  ],
+  "module": "Calendar",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "24 minutes",
+  "overview": "This guide covers calendar workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "visit-type",
+      "title": "Visit Type",
+      "purpose": "Define the visit types (e.g., new patient, follow-up, telehealth) available when booking on the practice calendar, along with their duration and colour code.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Visit Type",
+          "description": "Click Calendar in the sidebar and choose Visit Type from the Calendar Setting fly-out.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Visit Type List",
+          "description": "Review existing entries in the Visit Type List (columns: #, Practice Name, Visit Type, Visit Type Description, Duration, Status, Color, Action). The empty state reads \u201cNo visit types found\u201d.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Add Visit Type",
+          "description": "Click + Add Visit Type (top-right).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Enter Visit Type Details",
+          "description": "In the modal, enter Visit Type name, Description, Duration (in minutes) and pick a Color swatch.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Set Visit Type Status",
+          "description": "Set Status to Active (or Inactive to hide the type without deleting it).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Save Visit Type",
+          "description": "Click Save.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Edit or Delete Visit Type",
+          "description": "To edit or remove a row, use the pencil / trash icons in the Action column.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Search or Page Visit Types",
+          "description": "Use the Search box to filter by name or the Show N entries dropdown to change page size. Notes Duration drives the default appointment length on the calendar grid \u2014 a 30-minute visit type will span two 15-minute slots. The Color you pick is the block colour shown on the calendar and in day / week views. Inactive visit types are hidden from the appointment booking dropdown but remain on past appointments.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-89.png",
+        "evitals_shot_image-90.png"
+      ],
+      "_manualRef": "7.13.1"
+    },
+    {
+      "id": "working-hours",
+      "title": "Working Hours",
+      "purpose": "Define the practice\u2019s office hours (per day, within a date range) so that the calendar only offers bookable slots inside those windows.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Working Hours",
+          "description": "Click Calendar \u2192 Working Hours.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Schedule Start/End Date",
+          "description": "In the Office Hours panel, pick Start Date (required) and End Date using the mm/dd/yyyy pickers. Leave End Date blank for an open-ended schedule.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Enable Working Days",
+          "description": "For each day (Sun\u2013Sat) tick the checkbox to enable that day.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Set Start & End Times",
+          "description": "Set Start Time (default 09:00 AM) and End Time (default 05:00 PM) using the time pickers in the Days / Start Time / End Time grid.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Add or Remove Time Block",
+          "description": "Click the + icon in the Action column to add an additional time block for that day (e.g., a morning and an afternoon shift split around lunch); use the \u2013 icon to remove a block.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Repeat for Each Day",
+          "description": "Repeat for every working day.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Save Working Hours",
+          "description": "Click Save (bottom-left) to persist the schedule. Notes Days left unticked render as unavailable on the calendar (no bookable slots). Start Date is required; the schedule applies from that date forward until End Date or until Working Hours is edited again. Multiple blocks per day let you model split shifts \u2014 the calendar simply hides the slots between blocks.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-91.png"
+      ],
+      "_manualRef": "7.13.2"
+    },
+    {
+      "id": "calendar-view-book-appointments",
+      "title": "Calendar (view & book appointments)",
+      "purpose": "View the practice\u2019s appointment grid by week or list, and book / edit appointments against configured visit types and caregivers.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Calendar",
+          "description": "Click Calendar \u2192 Calendar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Navigate Between Months",
+          "description": "Use the month grid on the left to pick a date; \u00ab / \u00bb page between months, Clear resets the selection and Today jumps back to the current date.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Change Slot Granularity",
+          "description": "Change the slot granularity with the 15 Minutes dropdown (top of the right pane) \u2014 options include 15, 30 and 60 minute slots.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Refresh Appointments",
+          "description": "Use the \u21bb refresh icon to reload the day\u2019s appointments.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Toggle Week/List View",
+          "description": "Toggle Week / List (top-right of the day header) to switch between the calendar grid and a chronological list.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "View Selected Date Panel",
+          "description": "The right pane shows the selected date header (e.g., \u201cJuly 22, 2026\u201d) and either the appointment grid or \u201cNo working hours available for this day.\u201d when the day is outside the Working Hours schedule.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Book an Appointment",
+          "description": "Click an empty slot to open the Book Appointment dialog: pick Patient, Visit Type (colour-coded), Caregiver and add notes, then Save.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Reschedule or Cancel Visit",
+          "description": "Click an existing appointment block to reschedule, reassign or cancel.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 9,
+          "title": "Review Caregiver Availability",
+          "description": "The System Caregivers panel (below the month grid) lists caregivers available for assignment \u2014 \u201cNo caregivers available\u201d indicates none are mapped to this practice. Notes The message \u201cNo working hours available for this day.\u201d means Working Hours has that weekday unticked or the date is outside the Start/End range \u2014 fix it under Calendar \u2192 Working Hours. Slot colours match the Visit Type colour configured in 7.13.1. List view is useful for printing a day sheet; Week view is best for booking. Task 7.14 \u2014 Messages",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-92.png"
+      ],
+      "_manualRef": "7.13.3"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "calendar",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "calendar"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "visit-type",
+      "title": "Visit Type"
+    },
+    {
+      "id": "working-hours",
+      "title": "Working Hours"
+    },
+    {
+      "id": "calendar-view-book-appointments",
+      "title": "Calendar (view & book appointments)"
+    }
+  ],
+  "screenshots": []
+}

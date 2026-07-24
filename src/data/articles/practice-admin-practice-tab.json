@@ -1,0 +1,101 @@
+{
+  "id": "practice-admin-practice-tab",
+  "title": "Practice Tab",
+  "description": "Practice Tab documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Practice Tab",
+      "href": "/docs/practice-admin/practice-admin-practice-tab"
+    }
+  ],
+  "module": "Practice Tab",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "5 minutes",
+  "overview": "This guide covers practice tab workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "review-primary-contact-program-dates",
+      "title": "Review Primary Contact & Program Dates",
+      "purpose": "Read the practice\u2019s contact details and the active CCM / RPM program windows.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Confirm Practice Tab",
+          "description": "On the practice landing page, ensure the Practice tab is selected (highlighted dark navy).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Read Primary Contact",
+          "description": "Read the Primary Contact card: Facility, Email, Phone 1, Phone 2, Fax and the Status pill (Active shown in green).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Read Program Dates",
+          "description": "Read the Program Dates table for each enrolled program (CCM / RPM) with Start date, End date and the derived Days remaining in the billing window. Notes Practice contact details are managed by Super Admin / System Admin; Practice Admin has read-only view here. A red Status pill (Inactive) blocks new device orders, uploads and billing until reactivated.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-69.png"
+      ],
+      "_manualRef": "7.2.1"
+    },
+    {
+      "id": "review-monitoring-details",
+      "title": "Review Monitoring Details",
+      "purpose": "Confirm how eVitals is monitoring this practice and how devices are supplied.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scroll to Monitoring Details",
+          "description": "Scroll below Primary Contact to the Monitoring Details card.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Read Monitoring Flags",
+          "description": "Read each flag (Yes / No). Notes Buying Device = Yes means the practice purchases devices outright; No means eVitals leases devices for the program. Changes to these flags must be raised with Super Admin / System Admin. Task 7.3 \u2014 Admins Tab",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "7.2.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "practice tab",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "practice-tab"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-primary-contact-program-dates",
+      "title": "Review Primary Contact & Program Dates"
+    },
+    {
+      "id": "review-monitoring-details",
+      "title": "Review Monitoring Details"
+    }
+  ],
+  "screenshots": []
+}

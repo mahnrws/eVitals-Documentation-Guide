@@ -1,0 +1,99 @@
+{
+  "id": "super-admin-programs",
+  "title": "Programs",
+  "description": "Programs documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Programs",
+      "href": "/docs/super-admin/super-admin-programs"
+    }
+  ],
+  "module": "Programs",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "2 minutes",
+  "overview": "This guide covers programs workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "browse-care-programs",
+      "title": "Browse Care Programs",
+      "purpose": "Review the current catalogue and CPT rollups.",
+      "steps": [],
+      "screenshots": [
+        "41fa10c28cbc654eb5869dc01ce8b1dbaeb562e5.png"
+      ],
+      "_manualRef": "5.11.1"
+    },
+    {
+      "id": "add-a-care-program-program-identity",
+      "title": "Add a Care Program \u2014 Program Identity",
+      "purpose": "Name and visually identify a new care program.",
+      "steps": [],
+      "screenshots": [
+        "47f6322dbebf0bf7a528d89b7ad2c6cbcea25efa.png"
+      ],
+      "_manualRef": "5.11.2"
+    },
+    {
+      "id": "add-a-care-program-billing-coding",
+      "title": "Add a Care Program \u2014 Billing & Coding",
+      "purpose": "Attach CPT codes and reimbursement values.",
+      "steps": [],
+      "screenshots": [
+        "76a617d6fd2a992ffde9f1f6537b87be3179b34f.png"
+      ],
+      "_manualRef": "5.11.3"
+    },
+    {
+      "id": "add-a-care-program-clinical-requirements",
+      "title": "Add a Care Program \u2014 Clinical Requirements",
+      "purpose": "Permission is the role-based access control (RBAC) surface. Every user is assigned exactly one role, which determines the menus, screens, and operations they can access.",
+      "steps": [],
+      "screenshots": [
+        "d179eecdc8100b66ce646f01876efca55d77ad26.png"
+      ],
+      "_manualRef": "5.11.4"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "programs",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "programs"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "browse-care-programs",
+      "title": "Browse Care Programs"
+    },
+    {
+      "id": "add-a-care-program-program-identity",
+      "title": "Add a Care Program \u2014 Program Identity"
+    },
+    {
+      "id": "add-a-care-program-billing-coding",
+      "title": "Add a Care Program \u2014 Billing & Coding"
+    },
+    {
+      "id": "add-a-care-program-clinical-requirements",
+      "title": "Add a Care Program \u2014 Clinical Requirements"
+    }
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,119 @@
+{
+  "id": "system-admin-system-admin-dashboard",
+  "title": "System Admin Dashboard",
+  "description": "System Admin Dashboard documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "System Admin Dashboard",
+      "href": "/docs/system-admin/system-admin-system-admin-dashboard"
+    }
+  ],
+  "module": "System Admin Dashboard",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "8 minutes",
+  "overview": "This guide covers system admin dashboard workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "review-the-enrollment-summary",
+      "title": "Review the Enrollment Summary",
+      "purpose": "Get a portfolio-wide snapshot of practices, patients, and programs the System Admin oversees.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Land on Dashboard",
+          "description": "Sign in and land on the Dashboard by default.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Read Summary Cards",
+          "description": "Read the three cards at the top: Total Practices, Total Patients, Total Programs.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Confirm Sub-Badge Counts",
+          "description": "Confirm the sub-badges (A#, P#, L#) match the practices the System Admin manages.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Scroll to Practice List",
+          "description": "Scroll down to reach the Practice List table for drill-in.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-40.png"
+      ],
+      "_manualRef": "6.1.1"
+    },
+    {
+      "id": "filter-and-open-a-practice",
+      "title": "Filter and open a practice",
+      "purpose": "Locate a specific practice from the visible portfolio and open its detail page.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Filter the Practice List",
+          "description": "Use the Search practices\u2026 box, or use the Status, Locations, Patient Range, or Programs dropdowns to narrow the list.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Sort by Column",
+          "description": "Sort by clicking any column header (Status, Practice, Total Patients, Program Enrolled).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Open Practice Detail",
+          "description": "Click the blue eye (view) icon in the Action column on a practice row.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Land on Practice Tab",
+          "description": "The practice detail view opens at the Practice tab. System Admin sees only practices they are assigned to, unlike Super Admin who sees all. Task 6.2 \u2014 Practice Detail",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.1.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "system admin dashboard",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "system-admin-dashboard"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-the-enrollment-summary",
+      "title": "Review the Enrollment Summary"
+    },
+    {
+      "id": "filter-and-open-a-practice",
+      "title": "Filter and open a practice"
+    }
+  ],
+  "screenshots": []
+}

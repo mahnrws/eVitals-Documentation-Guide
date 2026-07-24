@@ -1,0 +1,137 @@
+{
+  "id": "practice-admin-patients-tab",
+  "title": "Patients Tab",
+  "description": "Patients Tab documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Patients Tab",
+      "href": "/docs/practice-admin/practice-admin-patients-tab"
+    }
+  ],
+  "module": "Patients Tab",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "11 minutes",
+  "overview": "This guide covers patients tab workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "read-the-patient-summary-cards",
+      "title": "Read the patient summary cards",
+      "purpose": "Get a same-page overview of enrolment, activity, quality and CPT-billing status.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Patients Tab",
+          "description": "Click the Patients tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Read Total Patients",
+          "description": "Read Total Patient \u2014 the coloured chips split the total into A (Active), P (Pending), L (Lost / Inactive).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review Recent Uploads",
+          "description": "Read Recent Uploads and click \u201cclick to view all\u201d to open the filtered patient list.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Review Missed Uploads",
+          "description": "Read Missed Uploads to see how many patients need outreach.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Review Abnormal Readings",
+          "description": "Read Abnormal Readings to see how many patients need clinical review.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Review CPT Billing",
+          "description": "Read CPT Billing to see actual vs target readings for each billing code (99453, 99445, 99454, \u2026). Notes The RPM billing date range (top-right) drives every CPT card total \u2014 verify the window before quoting numbers. Clicking any card\u2019s link deep-links to the same Patients tab pre-filtered by that condition.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-73.png"
+      ],
+      "_manualRef": "7.6.1"
+    },
+    {
+      "id": "work-the-patient-grid",
+      "title": "Work the patient grid",
+      "purpose": "Search, filter, sort and act on individual patients.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Search Patients by Name",
+          "description": "Use the Search patients by name\u2026 box to jump to a patient.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Filter by Status",
+          "description": "Use the All Status dropdown to filter by A / P / L.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Switch Program View",
+          "description": "Click the CCM or RPM chip (top-right of the grid) to switch program view.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Add a Patient",
+          "description": "Click + Add Patient to enrol a new patient.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Open Patient Dashboard",
+          "description": "Click a Name to open the patient dashboard, or use the eye / pencil / trash icons in Action. Notes Red numeric values (e.g. Diastolic 120.00) indicate the reading is outside the practice target range configured under Schedule & Targets. The heart icon beside a pulse or glucose value opens the reading trend for that vital. The 0 value shown in orange under Glucose indicates a zero/invalid reading that should be reviewed. Task 7.7 \u2014 System Caregivers Tab",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "7.6.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "patients tab",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "patients-tab"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "read-the-patient-summary-cards",
+      "title": "Read the patient summary cards"
+    },
+    {
+      "id": "work-the-patient-grid",
+      "title": "Work the patient grid"
+    }
+  ],
+  "screenshots": []
+}

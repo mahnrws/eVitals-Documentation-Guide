@@ -1,0 +1,174 @@
+{
+  "id": "system-admin-programs",
+  "title": "Programs",
+  "description": "Programs documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "Programs",
+      "href": "/docs/system-admin/system-admin-programs"
+    }
+  ],
+  "module": "Programs",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "15 minutes",
+  "overview": "This guide covers programs workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "review-the-care-program-list",
+      "title": "Review the Care Program List",
+      "purpose": "See every configured care program, its billing codes and category at a glance.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Care Programs",
+          "description": "Click Programs in the left sidebar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Summary Cards",
+          "description": "Review the summary cards to see the total counts of programs, billing codes and categories.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Search Care Programs",
+          "description": "Use the Search care programs\u2026 box to filter the list.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Sort Program List",
+          "description": "Sort by any column header (Program Name, Billing Codes, Category).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Page Through Programs",
+          "description": "Use the pager (Page 1 of N) or Show entries dropdown to page through the list.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Edit or Delete Program",
+          "description": "Use the blue edit or red delete icons in the Action column to modify or remove a program. Notes The chip beside the program name (CCM, RPM) identifies the program type and drives which billing codes are available. Deleting a program is blocked while patients are actively enrolled \u2014 retire the program via edit \u2192 Inactive instead.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-66.png"
+      ],
+      "_manualRef": "6.9.1"
+    },
+    {
+      "id": "add-a-new-care-program",
+      "title": "Add a new care program",
+      "purpose": "Register a new care program with billing codes, category and clinical requirements.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Add Care Program",
+          "description": "From the Care Program List, click + Add Program (top-right).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Enter Program Identity",
+          "description": "On the Identity form, enter the Program Name, program-type chip (CCM / RPM), short code and Category.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Add Billing Codes",
+          "description": "On the Billing & Coding form, add each CPT / HCPCS code, its description and any minimum service-time requirement.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Define Clinical Requirements",
+          "description": "On the Clinical Requirements form, define the required device types, measurement-day threshold and any protocol notes.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Save or Cancel Program",
+          "description": "Click Save to create the program, or Cancel to discard. Notes Category groups programs on the summary card and in reports (e.g. Chronic Care, Remote Monitoring). Billing codes entered here become selectable when generating a billing report for a patient enrolled in this program. Clinical Requirements enforce the minimum evidence needed before a billing code becomes eligible.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.9.2"
+    },
+    {
+      "id": "edit-or-delete-a-care-program",
+      "title": "Edit or delete a care program",
+      "purpose": "Update program details / billing codes or retire a program that is no longer offered.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Locate the Program",
+          "description": "Locate the program in the list.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Open Edit Program Form",
+          "description": "Click the blue edit icon to open the same Identity / Billing / Clinical forms and update any field.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Save Program Changes",
+          "description": "Click Save to commit changes.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Delete the Program",
+          "description": "To remove a program, click the red trash icon and confirm the deletion. Notes Changes to billing codes take effect immediately for future billing cycles; already-generated reports are not retroactively modified. Task 6.10 \u2014 Settings",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.9.3"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "programs",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "programs"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-the-care-program-list",
+      "title": "Review the Care Program List"
+    },
+    {
+      "id": "add-a-new-care-program",
+      "title": "Add a new care program"
+    },
+    {
+      "id": "edit-or-delete-a-care-program",
+      "title": "Edit or delete a care program"
+    }
+  ],
+  "screenshots": []
+}

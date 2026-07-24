@@ -1,0 +1,57 @@
+{
+  "id": "super-admin-admins-system-admins",
+  "title": "Admins (System Admins)",
+  "description": "Admins (System Admins) documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Admins (System Admins)",
+      "href": "/docs/super-admin/super-admin-admins-system-admins"
+    }
+  ],
+  "module": "Admins (System Admins)",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "2 minutes",
+  "overview": "This guide covers admins (system admins) workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "browse-system-admins",
+      "title": "Browse System Admins",
+      "purpose": "System Caregivers are eVitals-employed caregivers that can be shared across practices. This module is the platform-level roster.",
+      "steps": [],
+      "screenshots": [
+        "68be2036f369f2062f46cc5e35d2c2548bebb148.png"
+      ],
+      "_manualRef": "5.4.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "admins (system admins)",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "admins-system-admins"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "browse-system-admins",
+      "title": "Browse System Admins"
+    }
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,229 @@
+{
+  "id": "practice-admin-schedule-targets-tab",
+  "title": "Schedule & Targets Tab",
+  "description": "Schedule & Targets Tab documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Schedule & Targets Tab",
+      "href": "/docs/practice-admin/practice-admin-schedule-targets-tab"
+    }
+  ],
+  "module": "Schedule & Targets Tab",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "21 minutes",
+  "overview": "This guide covers schedule & targets tab workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "configure-daily-schedule",
+      "title": "Configure Daily Schedule",
+      "purpose": "Set the practice\u2019s default daily anchor times (Wake-up, Breakfast, Lunch, Dinner, Bed).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Schedule & Targets",
+          "description": "Click the Schedule & Targets tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Daily Schedule Times",
+          "description": "Under Daily Schedule, set Wake-up Time (default 06:00 AM), Breakfast Time (08:00 AM), Lunch Time (12:00 PM), Dinner Time (06:00 PM) and Bed Time (10:00 PM).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Save or Cancel Schedule",
+          "description": "Click Save at the top-right; use Cancel to discard changes.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Review Schedule Audit Log",
+          "description": "Click Event Logs to view an audit trail of previous changes. Notes All five anchor times are required (marked with a red asterisk). Changes take effect for readings uploaded after the save; historical readings retain their original window.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-76.png"
+      ],
+      "_manualRef": "7.9.1"
+    },
+    {
+      "id": "configure-blood-pressure-targets",
+      "title": "Configure Blood Pressure Targets",
+      "purpose": "Define the four measurement windows (Wake-up, Morning, Noon, Afternoon) and target Systolic / Diastolic ranges.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scroll to BP Targets",
+          "description": "Scroll to the Blood Pressure Targets section.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set BP Time Windows",
+          "description": "For each window (Wake-up, Morning, Noon, Afternoon), set the Start \u2013 End time range.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Systolic/Diastolic Ranges",
+          "description": "For each window, enter the Systolic Pressure target range (e.g. 100\u2013142) and Diastolic Pressure target range (e.g. 100\u2013113 for Wake-up, 50\u201380 for Morning / Noon).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save or Cancel Targets",
+          "description": "Click Save to persist, or Cancel to revert. Notes Windows must not overlap \u2014 validation flags any conflicts before Save is accepted. Readings outside the target range render in red on the Patients grid and trigger Abnormal Readings alerts.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-76.png"
+      ],
+      "_manualRef": "7.9.2"
+    },
+    {
+      "id": "configure-blood-glucose-targets",
+      "title": "Configure Blood Glucose Targets",
+      "purpose": "Define meal-related BG windows and target ranges (Wake-up, Before-Meal, After-Meal, Bedtime, Midnight and pre / post-meal times for Breakfast / Lunch / Dinner).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scroll to Glucose Targets",
+          "description": "Scroll to the Blood Glucose Targets section.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Glucose Target Ranges",
+          "description": "Set the target range (Low \u2013 High mg/dL) for Wake-up Target Rangeup Time, Before-Meal Target Range, After-Meal Target Range, Bedtime Target Range and Midnight Target Range (typical defaults 60\u2013110 / 70\u2013140).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Wake-Up Window",
+          "description": "Set the Wake-up Time window (e.g. 06:00 AM \u2013 11:00 AM).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Set Meal Time Windows",
+          "description": "Set the Before-Breakfast, After-Breakfast, Before-Lunch, After-Lunch, Before-Dinner, After-Dinner windows using the Start \u2013 End time pickers.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Set Bedtime & Midnight Windows",
+          "description": "Set the Bedtime and Midnight time windows.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Save or Review History",
+          "description": "Click Save; use Cancel to discard or Event Logs to view history. Notes All BG window fields are required (marked with red asterisks). Windows are chronological \u2014 a Before-Lunch start after the Lunch anchor from Daily Schedule is rejected.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-77.png"
+      ],
+      "_manualRef": "7.9.3"
+    },
+    {
+      "id": "configure-weight-targets",
+      "title": "Configure Weight Targets",
+      "purpose": "Set recommended weight / body-fat / BMI ranges and the three daily weigh-in windows (Morning, Afternoon, Evening).",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scroll to Weight Targets",
+          "description": "Scroll to the Weight Targets section.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Auto-Derived Ranges",
+          "description": "Recommended Weight Range and Recommended Body Fat Range are auto-derived (shown in lb / %); no direct input.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Enter Weight Target Range",
+          "description": "Enter Weight Target Range (lb) \u2014 e.g. 66 \u2013 220.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Enter Body Fat Range",
+          "description": "Enter Body Fat Target Range (%) \u2014 e.g. 14 \u2013 27.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Set BMI Cut-Offs",
+          "description": "Under BMI Target Range, enter the upper cut-offs for Normal (18.5), Overweight (25) and Obese (30); the Underweight bucket is bounded by the Normal cut-off.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Set Time-of-Day Windows",
+          "description": "Set the Morning window (e.g. 06:00 AM \u2013 03:59 PM), the Afternoon window (12:00 PM \u2013 09:59 PM) and the Evening window (06:00 PM \u2013 09:59 AM next day).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Save or Review History",
+          "description": "Click Save; use Cancel to revert or Event Logs for history. Notes BMI cut-offs are inclusive \u2014 a reading equal to the Normal cut-off falls in the Normal bucket. The Recommended Weight and Body Fat ranges refresh only after the patient profile (height, age, sex) is updated. Task 7.10 \u2014 Import Patients Tab",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-78.png"
+      ],
+      "_manualRef": "7.9.4"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "schedule & targets tab",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "schedule-targets-tab"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "configure-daily-schedule",
+      "title": "Configure Daily Schedule"
+    },
+    {
+      "id": "configure-blood-pressure-targets",
+      "title": "Configure Blood Pressure Targets"
+    },
+    {
+      "id": "configure-blood-glucose-targets",
+      "title": "Configure Blood Glucose Targets"
+    },
+    {
+      "id": "configure-weight-targets",
+      "title": "Configure Weight Targets"
+    }
+  ],
+  "screenshots": []
+}

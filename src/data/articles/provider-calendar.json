@@ -1,0 +1,235 @@
+{
+  "id": "provider-calendar",
+  "title": "Calendar",
+  "description": "Calendar documentation for Provider.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/provider"
+    },
+    {
+      "label": "Calendar",
+      "href": "/docs/provider/provider-calendar"
+    }
+  ],
+  "module": "Calendar",
+  "category": "Provider",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "22 minutes",
+  "overview": "This guide covers calendar workflows for Provider.",
+  "subtasks": [
+    {
+      "id": "calendar-setting-menu-sidebar",
+      "title": "Calendar Setting menu (sidebar)",
+      "purpose": "Expose the three Calendar Setting entry points \u2014 Visit Type, Working Hours and Calendar.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Calendar Menu",
+          "description": "Click Calendar in the left sidebar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose Calendar Option",
+          "description": "Pick Visit Type to manage visit-type presets, Working Hours to set weekly availability, or Calendar to view / book appointments.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Close the Flyout",
+          "description": "Click outside the flyout to close it. Notes The red dot on Calendar indicates upcoming appointments in the next 24 hours.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-113.png"
+      ],
+      "_manualRef": "8.5.1"
+    },
+    {
+      "id": "visit-type-list",
+      "title": "Visit Type List",
+      "purpose": "Maintain the practice\u2019s reusable visit-type presets (name, description, duration, colour, status) so calendar bookings share a consistent taxonomy.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Visit Type List",
+          "description": "Click Calendar \u2192 Visit Type.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search Visit Types",
+          "description": "Use the Search box (top-right) to filter existing visit types.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Add Visit Type",
+          "description": "Click + Add Visit Type (top-right, blue) to open the Add modal.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Enter Visit Type Details",
+          "description": "Enter Visit Type name (e.g., \u201c30-min Follow-up\u201d), Description, Duration in minutes and pick a Color chip.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Set Status & Save",
+          "description": "Set Status Active and click Save \u2014 the new row appears in the grid.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Edit or Delete Visit Type",
+          "description": "Use the row Action to edit, deactivate or delete an existing preset.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Page Through Visit Types",
+          "description": "Change Show N entries and use the pager (bottom-right) to navigate. Notes Visit-type Colour is what renders on the Calendar day / week grid \u2014 pick distinct colours per common visit. Deactivating a visit type hides it from new bookings but leaves historical appointments intact.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-114.png"
+      ],
+      "_manualRef": "8.5.2"
+    },
+    {
+      "id": "working-hours",
+      "title": "Working Hours",
+      "purpose": "Set the weekly availability window per day (with optional split shifts) that the Calendar honours when offering booking slots.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Working Hours",
+          "description": "Click Calendar \u2192 Working Hours.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Toggle Day Active",
+          "description": "For each day (Mon \u2013 Sun), toggle the day Active / Inactive.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Start & End Time",
+          "description": "For active days, set the primary start and end time (e.g., 09:00 AM \u2013 05:00 PM).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Add Split Shift",
+          "description": "If a split shift is needed, click + Add Shift and enter the second start / end.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Copy Schedule from Day",
+          "description": "Copy from another day using the \u201cCopy from\u201d dropdown when the same schedule applies.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Save Working Hours",
+          "description": "Click Save to persist the week. Notes Inactive days are removed from the Calendar picker and the booking availability API. Split shifts are useful for lunch breaks \u2014 the gap between shifts is treated as unavailable.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-115.png"
+      ],
+      "_manualRef": "8.5.3"
+    },
+    {
+      "id": "calendar-view-book-appointments",
+      "title": "Calendar (view & book appointments)",
+      "purpose": "View, create, reschedule or cancel appointments across day / week / month views.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Calendar Grid",
+          "description": "Click Calendar \u2192 Calendar to open the grid (default view: current week).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Toggle Day/Week/Month View",
+          "description": "Toggle between Day / Week / Month views using the view switch (top-right).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Navigate the Calendar",
+          "description": "Use the \u2039 / \u203a arrows or Today to navigate.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Book an Appointment",
+          "description": "Click an empty slot to open the Add Appointment form \u2014 pick Patient, Visit Type, System Caregiver / Provider, Start, End, Notes \u2014 then Save.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "View, Reschedule, or Edit",
+          "description": "Click an existing appointment to view detail; drag to reschedule or click Edit to change time / attendees.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Cancel Appointment",
+          "description": "Click Cancel Appointment to remove and notify the patient. Notes Only slots inside the configured Working Hours are clickable \u2014 greyed slots are outside availability. Rescheduling triggers an automatic patient notification per the practice\u2019s SMS / email preferences. Task 8.6 \u2014 Messages",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-116.png"
+      ],
+      "_manualRef": "8.5.4"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "calendar",
+    "provider"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Provider",
+    "tags": [
+      "provider",
+      "calendar"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "calendar-setting-menu-sidebar",
+      "title": "Calendar Setting menu (sidebar)"
+    },
+    {
+      "id": "visit-type-list",
+      "title": "Visit Type List"
+    },
+    {
+      "id": "working-hours",
+      "title": "Working Hours"
+    },
+    {
+      "id": "calendar-view-book-appointments",
+      "title": "Calendar (view & book appointments)"
+    }
+  ],
+  "screenshots": []
+}

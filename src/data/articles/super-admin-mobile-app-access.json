@@ -1,0 +1,94 @@
+{
+  "id": "super-admin-mobile-app-access",
+  "title": "Mobile App Access",
+  "description": "Mobile App Access documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Mobile App Access",
+      "href": "/docs/super-admin/super-admin-mobile-app-access"
+    }
+  ],
+  "module": "Mobile App Access",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "4 minutes",
+  "overview": "This guide covers mobile app access workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "review-access-summary",
+      "title": "Review Access Summary",
+      "purpose": "See mobile enrollment totals for the current scope.",
+      "steps": [],
+      "screenshots": [
+        "423e134db4d61f0db3d581564bf6024d4c5ce1e5.png"
+      ],
+      "_manualRef": "5.14.1"
+    },
+    {
+      "id": "enable-or-disable-mobile-access-per-user",
+      "title": "Enable or Disable Mobile Access per User",
+      "purpose": "Turn mobile app access on or off for individual users at a practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Navigate to Mobile App",
+          "description": "Sidebar \u2192 Mobile App.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Choose a Practice",
+          "description": "Choose a practice from the Practice dropdown on the right.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "View User Toggle List",
+          "description": "The user list loads with a toggle per row.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Toggle Mobile Access",
+          "description": "Flip the toggle for each user to enable or revoke mobile access. End of Super Admin Volume This concludes the Super Admin role in HTA form. Subsequent volumes will document Admin, Practice Admin, Provider, Practice Caregiver, and System Caregiver using the same module \u2192 sub-module \u2192 task \u2192 steps decomposition, so the documentation site can render every role consistently. 6. System Admin Task 6.1 \u2014 System Admin Dashboard",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "5.14.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "mobile app access",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "mobile-app-access"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-access-summary",
+      "title": "Review Access Summary"
+    },
+    {
+      "id": "enable-or-disable-mobile-access-per-user",
+      "title": "Enable or Disable Mobile Access per User"
+    }
+  ],
+  "screenshots": []
+}

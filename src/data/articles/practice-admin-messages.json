@@ -1,0 +1,106 @@
+{
+  "id": "practice-admin-messages",
+  "title": "Messages",
+  "description": "Messages documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Messages",
+      "href": "/docs/practice-admin/practice-admin-messages"
+    }
+  ],
+  "module": "Messages",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "8 minutes",
+  "overview": "This guide covers messages workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "messages-secure-in-app-collaboration",
+      "title": "Messages (secure in-app collaboration)",
+      "purpose": "Send and receive secure messages with providers, caregivers and other practice staff, with a per-conversation Focused Vital Snapshot pulled from the selected patient.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Messages",
+          "description": "Click Messages in the sidebar. The three-pane layout shows: Conversations (left), Thread pane (centre) and Focused Vital Snapshot (right).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search Conversations",
+          "description": "Use the Search conversations box at the top of the left pane to find an existing thread by participant or subject.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Filter Message List",
+          "description": "Filter the list with the All | Unread | Flagged tabs above the conversation list.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Open a Conversation",
+          "description": "Click a conversation to load its messages in the centre pane; empty state reads \u201cYour Messages \u2014 Select a contact from the list or start a new conversation to collaborate.\u201d",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Start New Thread",
+          "description": "To start a new thread, click the + (floating action button, bottom-left) \u2014 pick recipient(s), optionally attach a patient and type the message.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Use Bulk Message Actions",
+          "description": "Use the \u22ee menu (top-right of the left pane) for bulk actions: mark all read, mute, archive.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Attach Patient Vitals",
+          "description": "In the Focused Vital Snapshot pane, use Search patients by name or ID\u2026 to attach patient context; the panel then renders the patient\u2019s latest BP / Glucose / Weight readings alongside the conversation.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Flag or Mark Unread",
+          "description": "Use the flag / unread controls inside a message to change its state; flagged messages appear under the Flagged tab. Notes Messages are HIPAA-secured and stored inside the practice tenant; they are not sent as email. Attaching a patient to a conversation logs the reference to that patient\u2019s audit trail. Unread counts on the Messages sidebar badge reflect only the current user\u2019s inbox. Task 7.15 \u2014 Settings",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-93.png"
+      ],
+      "_manualRef": "7.14.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "messages",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "messages"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "messages-secure-in-app-collaboration",
+      "title": "Messages (secure in-app collaboration)"
+    }
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "super-admin-caregivers-system-caregivers",
+  "title": "Caregivers (System Caregivers)",
+  "description": "Caregivers (System Caregivers) documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Caregivers (System Caregivers)",
+      "href": "/docs/super-admin/super-admin-caregivers-system-caregivers"
+    }
+  ],
+  "module": "Caregivers (System Caregivers)",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "2 minutes",
+  "overview": "This guide covers caregivers (system caregivers) workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "browse-system-caregivers",
+      "title": "Browse System Caregivers",
+      "purpose": "View and manage the list of system caregivers assigned across practices. Browse, search, and filter caregivers by status, name, or practice.",
+      "steps": [],
+      "screenshots": [
+        "98adcccfa6f46f7438674d0edb63a68ec94ddc5c.png"
+      ],
+      "_manualRef": "5.5.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "caregivers (system caregivers)",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "caregivers-system-caregivers"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "browse-system-caregivers",
+      "title": "Browse System Caregivers"
+    }
+  ],
+  "screenshots": []
+}

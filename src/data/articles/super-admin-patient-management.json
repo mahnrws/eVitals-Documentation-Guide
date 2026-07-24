@@ -1,0 +1,137 @@
+{
+  "id": "super-admin-patient-management",
+  "title": "Patient Management",
+  "description": "Patient Management documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Patient Management",
+      "href": "/docs/super-admin/super-admin-patient-management"
+    }
+  ],
+  "module": "Patient Management",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "8 minutes",
+  "overview": "This guide covers patient management workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "open-the-patient-mgmt-menu",
+      "title": "Open the Patient Mgmt Menu",
+      "purpose": "Understand what the three sub-items do.",
+      "steps": [],
+      "screenshots": [
+        "9bfb46ec73881c95053815375345ede90a842242.png"
+      ],
+      "_manualRef": "5.8.1"
+    },
+    {
+      "id": "look-up-a-patient-general",
+      "title": "Look Up a Patient (General)",
+      "purpose": "Find a patient by name or by practice/provider/caregiver.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Navigate to Lookup Patient",
+          "description": "Sidebar \u2192 Patient Mgmt \u2192 Lookup Patient.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Filter Patient Search",
+          "description": "Filter by any combination of Name, Practice, Provider, Caregiver, Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Search & Review Results",
+          "description": "Click Search; review the result grid.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "6ae09eff3379ff35a1f69027e8936cb4e0e31f84.png"
+      ],
+      "_manualRef": "5.8.2"
+    },
+    {
+      "id": "look-up-patient-by-rpm-date",
+      "title": "Look Up Patient by RPM Date",
+      "purpose": "Find RPM patients seen inside a given service window.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Navigate to RPM Lookup",
+          "description": "Sidebar \u2192 Patient Mgmt \u2192 Lookup Patient (by RPM date).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Pick Service Date Range",
+          "description": "Pick a service date range.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Search RPM Records",
+          "description": "Search; grid returns RPM-specific columns (vitals coverage, last reading date, service time).",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "618e56bbdd5a3b1b5d0d2a3b0d1f34a4003001a4.png"
+      ],
+      "_manualRef": "5.8.3"
+    },
+    {
+      "id": "look-up-patient-by-ccm-date",
+      "title": "Look Up Patient by CCM Date",
+      "purpose": "Care Management is where operational follow-ups are queried. Follow Up Query returns patients whose upload cadence or vitals need caregiver attention.",
+      "steps": [],
+      "screenshots": [
+        "db7fff0835952c9232cceb4d7fc4a007edb83002.png"
+      ],
+      "_manualRef": "5.8.4"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "patient management",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "patient-management"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "open-the-patient-mgmt-menu",
+      "title": "Open the Patient Mgmt Menu"
+    },
+    {
+      "id": "look-up-a-patient-general",
+      "title": "Look Up a Patient (General)"
+    },
+    {
+      "id": "look-up-patient-by-rpm-date",
+      "title": "Look Up Patient by RPM Date"
+    },
+    {
+      "id": "look-up-patient-by-ccm-date",
+      "title": "Look Up Patient by CCM Date"
+    }
+  ],
+  "screenshots": []
+}

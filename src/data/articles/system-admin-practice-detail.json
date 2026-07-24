@@ -1,0 +1,511 @@
+{
+  "id": "system-admin-practice-detail",
+  "title": "Practice Detail",
+  "description": "Practice Detail documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "Practice Detail",
+      "href": "/docs/system-admin/system-admin-practice-detail"
+    }
+  ],
+  "module": "Practice Detail",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "48 minutes",
+  "overview": "This guide covers practice detail workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "open-the-practice-tab-primary-contact-program-dates",
+      "title": "Open the Practice tab (Primary Contact & Program Dates)",
+      "purpose": "Verify the practice's primary contact information, status, program dates, and monitoring configuration.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Confirm Practice Tab",
+          "description": "Confirm the Practice tab is selected (default landing tab).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Read Primary Contact Info",
+          "description": "Read the Primary Contact block: Facility, Email, Phone 1, Phone 2, Fax, Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review Program Dates",
+          "description": "Review the Program Dates table for each enrolled program (RPM shown with Start date, End date, Days).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Review Monitoring Details",
+          "description": "Scroll to Monitoring Details to confirm whether eVitals is monitoring the patients, which vitals are tracked, and whether devices are bought or leased.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-41.png"
+      ],
+      "_manualRef": "6.2.1"
+    },
+    {
+      "id": "manage-practice-admins",
+      "title": "Manage Practice Admins",
+      "purpose": "Review, add, or maintain Practice Admin accounts scoped to this practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Admins Tab",
+          "description": "Click the Admins tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search for an Admin",
+          "description": "Search or filter by All Status to locate an admin.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "View, Edit, or Remove",
+          "description": "Click the eye icon to view details, the pencil to edit, or the trash icon to remove.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Add Practice Admin",
+          "description": "Click Add Practice Admin (top-right) to create a new one.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Audit Admin Changes",
+          "description": "Use Event Logs (bottom of table) to audit changes to admin records.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-42.png"
+      ],
+      "_manualRef": "6.2.2"
+    },
+    {
+      "id": "manage-providers",
+      "title": "Manage Providers",
+      "purpose": "Review or add clinicians (Providers) linked to this practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Providers Tab",
+          "description": "Click the Providers tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search for a Provider",
+          "description": "Search or use the status filter to find a provider.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "View, Edit, or Delete",
+          "description": "Use the eye / pencil / trash icons for view, edit, delete.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Add a Provider",
+          "description": "Click Add Providers to onboard a new clinician.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Open Event Logs",
+          "description": "Open Event Logs for a change history.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-43.png"
+      ],
+      "_manualRef": "6.2.3"
+    },
+    {
+      "id": "manage-caregivers",
+      "title": "Manage Caregivers",
+      "purpose": "Review or add practice-level Caregivers (non-system) that support this practice's patients.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Caregivers Tab",
+          "description": "Click the Caregivers tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Locate a Caregiver",
+          "description": "Locate a caregiver via search or status filter.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "View, Edit, or Delete",
+          "description": "Use eye / pencil / trash icons for view, edit, delete.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Add a Caregiver",
+          "description": "Click Add Caregiver to attach a new caregiver to the practice.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-44.png"
+      ],
+      "_manualRef": "6.2.4"
+    },
+    {
+      "id": "review-the-patients-roster-cpt-billing",
+      "title": "Review the Patients roster & CPT billing",
+      "purpose": "Get a vitals-first view of the practice's patients with device readings, upload status, and CPT billing counters.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Patients Tab",
+          "description": "Click the Patients tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review KPI Cards",
+          "description": "Read the five KPI cards; click 'click to view all' under any card to drill in.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review CPT Billing Counts",
+          "description": "Review CPT Billing counters (99453 / 99445 / 99454 and +4 more).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Filter RPM Patients",
+          "description": "Search patients by name or filter by All Status; click the RPM chip to filter to RPM patients.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Inspect, Edit, or Remove Patient",
+          "description": "Click the eye / pencil / trash on a patient row to inspect, edit, or remove.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Add a Patient",
+          "description": "Click Add Patient to enroll a new patient. The RPM Billing Dates range in the top-right of this tab reflects the practice's active RPM contract window.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-45.png"
+      ],
+      "_manualRef": "6.2.5"
+    },
+    {
+      "id": "review-system-caregivers-assigned-to-the-practice",
+      "title": "Review System Caregivers assigned to the practice",
+      "purpose": "Confirm which System Caregivers are supporting patients in this practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open System Caregivers Tab",
+          "description": "Click the System Caregivers tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search or Filter Caregivers",
+          "description": "Search by name or filter by All Status.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "View, Edit, or Unassign",
+          "description": "Use eye / pencil / trash to view, edit, or unassign.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Review Assignment History",
+          "description": "Open Event Logs to review historical assignments.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-46.png"
+      ],
+      "_manualRef": "6.2.6"
+    },
+    {
+      "id": "inspect-the-rpm-program-tab",
+      "title": "Inspect the RPM program tab",
+      "purpose": "Review the RPM-specific primary contact, program window, and monitoring configuration for the practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open RPM Tab",
+          "description": "Click the RPM tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Confirm Primary Contact",
+          "description": "Confirm the Primary Contact matches the Practice tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review RPM Program Dates",
+          "description": "Review the RPM row in Program Dates (Start date, End date, Days).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Verify Monitoring Details",
+          "description": "Verify Monitoring Details: monitoring flag, vital chips (Blood Pressure, Blood Glucose, Weight), and device sourcing (Buying / Leasing).",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-47.png"
+      ],
+      "_manualRef": "6.2.7"
+    },
+    {
+      "id": "configure-schedule-targets-daily-schedule",
+      "title": "Configure Schedule & Targets \u2014 Daily Schedule",
+      "purpose": "Set the patient day (Wake-up, Breakfast, Lunch, Dinner, Bed Time) that anchors reading windows and reminders.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Schedule & Targets Tab",
+          "description": "Click the Schedule & Targets tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Daily Schedule Times",
+          "description": "In the Daily Schedule panel, set Wake-up Time, Breakfast Time, Lunch Time, Dinner Time, and Bed Time.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Save or Cancel Changes",
+          "description": "Click Save to apply, or Cancel to discard.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Review Schedule History",
+          "description": "Click Event Logs to review prior schedule changes. All fields are required (marked with *).",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-48.png"
+      ],
+      "_manualRef": "6.2.8"
+    },
+    {
+      "id": "configure-schedule-targets-blood-pressure-targets",
+      "title": "Configure Schedule & Targets \u2014 Blood Pressure Targets",
+      "purpose": "Define reading windows and Systolic / Diastolic target ranges for Wake-up, Morning, Noon, Afternoon, and Evening.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scroll to BP Targets",
+          "description": "Scroll to the Blood Pressure Targets panel.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set BP Time Windows",
+          "description": "For each band (Wake-up, Morning, Noon, Afternoon, Evening) set the start\u2013end time window.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Systolic/Diastolic Ranges",
+          "description": "Enter Systolic Pressure min\u2013max (default 100\u2013140) and Diastolic Pressure min\u2013max (default 60\u201390).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save & Audit BP Targets",
+          "description": "Click Save to persist, or Cancel to discard. Use Event Logs to audit prior values. Time windows should not overlap across bands. Ranges above/below the targets are flagged as abnormal in the Patients tab.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-48.png"
+      ],
+      "_manualRef": "6.2.9"
+    },
+    {
+      "id": "configure-schedule-targets-blood-glucose-targets",
+      "title": "Configure Schedule & Targets \u2014 Blood Glucose Targets",
+      "purpose": "Define glucose target ranges and mealtime windows used to classify pre/post-meal glucose readings.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scroll to Glucose Targets",
+          "description": "Scroll to the Blood Glucose Targets panel.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Glucose Target Ranges",
+          "description": "Set Wake-up Target Range, Before-Meal Target Range, After-Meal Target Range, Bedtime Target Range, and Midnight Target Range (each min\u2013max).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Wake-Up Time",
+          "description": "Set Wake-up Time (start\u2013end).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Set Meal Time Windows",
+          "description": "Set Before-Breakfast, After-Breakfast, Before-Lunch, After-Lunch, Before-Dinner, After-Dinner time windows.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Set Bedtime & Midnight Windows",
+          "description": "Set Bedtime and Midnight windows.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Save & Review Glucose History",
+          "description": "Click Save (or Cancel). Use Event Logs to review history. Meal windows should not overlap; adjacent windows chain end\u2192start (e.g., After-Breakfast end = Before-Lunch start).",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-49.png"
+      ],
+      "_manualRef": "6.2.10"
+    },
+    {
+      "id": "configure-schedule-targets-weight-targets",
+      "title": "Configure Schedule & Targets \u2014 Weight Targets",
+      "purpose": "Set the recommended weight, body-fat, BMI and daily time-window targets used to classify each patient\u2019s weight readings.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open the practice and select the Schedule & Targets tab; scroll to the Weight Targets card.",
+          "description": "Open the practice and select the Schedule & Targets tab; scroll to the Weight Targets card. Confirm the Recommended Weight Range and Recommended Body Fat Range shown as guidance (read-only). Enter the lower and upper bounds for Weight Target Range (lb) and Body Fat Target Range (%). Set the BMI thresholds for Normal, Overweight and Obese; the Underweight cell is derived automatically. Adjust the Morning, Afternoon and Evening time windows if the practice uses non-default weigh-in slots. Click Save to persist the targets, or Cancel to discard changes. Use Event Logs to review who last edited these values. Notes All numeric inputs accept one decimal place; the UI validates that lower bound < upper bound. Evening window may span midnight (end time < start time) \u2014 the system treats it as an overnight interval. Changes take effect on the next weight reading uploaded from the paired scale.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-50.png"
+      ],
+      "_manualRef": "6.2.11"
+    },
+    {
+      "id": "bulk-import-patients-import-patients-tab",
+      "title": "Bulk import patients (Import Patients tab)",
+      "purpose": "Add multiple patients to a practice in a single upload by supplying a CSV / Excel file mapped to a chosen Provider and Caregiver.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open the practice and click the Import Patients tab in the practice sub-navigation.",
+          "description": "Open the practice and click the Import Patients tab in the practice sub-navigation. In the Add Bulk Patients card, choose a Provider from the dropdown. Choose a Caregiver from the second dropdown. Click Upload CSV/Excel and select the prepared file; the chosen filename replaces the \"No file chosen\" placeholder. Click Import Patients to start processing. A confirmation toast reports how many rows succeeded and how many failed. If failures are reported, download the error file, correct the flagged rows and re-upload only the corrected subset. Click Cancel to abandon the import before submission. Notes Provider and Caregiver selections apply to every row in the file \u2014 split the file if patients need different assignments. The importer is idempotent by MRN; a duplicate MRN row is skipped rather than creating a second patient. Program-enrolment columns in the file (CCM/RPM start dates) must fall within the practice\u2019s active billing cycle or the row is rejected. Task 6.3 \u2014 Caregivers",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-51.png"
+      ],
+      "_manualRef": "6.2.12"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "practice detail",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "practice-detail"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "open-the-practice-tab-primary-contact-program-dates",
+      "title": "Open the Practice tab (Primary Contact & Program Dates)"
+    },
+    {
+      "id": "manage-practice-admins",
+      "title": "Manage Practice Admins"
+    },
+    {
+      "id": "manage-providers",
+      "title": "Manage Providers"
+    },
+    {
+      "id": "manage-caregivers",
+      "title": "Manage Caregivers"
+    },
+    {
+      "id": "review-the-patients-roster-cpt-billing",
+      "title": "Review the Patients roster & CPT billing"
+    },
+    {
+      "id": "review-system-caregivers-assigned-to-the-practice",
+      "title": "Review System Caregivers assigned to the practice"
+    },
+    {
+      "id": "inspect-the-rpm-program-tab",
+      "title": "Inspect the RPM program tab"
+    },
+    {
+      "id": "configure-schedule-targets-daily-schedule",
+      "title": "Configure Schedule & Targets \u2014 Daily Schedule"
+    },
+    {
+      "id": "configure-schedule-targets-blood-pressure-targets",
+      "title": "Configure Schedule & Targets \u2014 Blood Pressure Targets"
+    },
+    {
+      "id": "configure-schedule-targets-blood-glucose-targets",
+      "title": "Configure Schedule & Targets \u2014 Blood Glucose Targets"
+    },
+    {
+      "id": "configure-schedule-targets-weight-targets",
+      "title": "Configure Schedule & Targets \u2014 Weight Targets"
+    },
+    {
+      "id": "bulk-import-patients-import-patients-tab",
+      "title": "Bulk import patients (Import Patients tab)"
+    }
+  ],
+  "screenshots": []
+}

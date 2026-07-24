@@ -1,0 +1,71 @@
+{
+  "id": "super-admin-inventory",
+  "title": "Inventory",
+  "description": "Inventory documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Inventory",
+      "href": "/docs/super-admin/super-admin-inventory"
+    }
+  ],
+  "module": "Inventory",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "2 minutes",
+  "overview": "This guide covers inventory workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "browse-the-product-catalogue",
+      "title": "Browse the Product Catalogue",
+      "purpose": "See what is in stock at the product (SKU) level.",
+      "steps": [],
+      "screenshots": [
+        "ec6f6acd1010825ac7ce99af56a7d68297e5d7d7.png"
+      ],
+      "_manualRef": "5.6.1"
+    },
+    {
+      "id": "inspect-individual-devices",
+      "title": "Inspect Individual Devices",
+      "purpose": "The Billing module rolls up service-time evidence per practice per program and marks each practice's readiness to invoice for the current cycle.",
+      "steps": [],
+      "screenshots": [
+        "012908ac27ffc428ed04452ad7b125e6f8fb8f0e.png"
+      ],
+      "_manualRef": "5.6.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "inventory",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "inventory"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "browse-the-product-catalogue",
+      "title": "Browse the Product Catalogue"
+    },
+    {
+      "id": "inspect-individual-devices",
+      "title": "Inspect Individual Devices"
+    }
+  ],
+  "screenshots": []
+}

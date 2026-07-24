@@ -1,0 +1,82 @@
+{
+  "id": "super-admin-email-logs",
+  "title": "Email Logs",
+  "description": "Email Logs documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Email Logs",
+      "href": "/docs/super-admin/super-admin-email-logs"
+    }
+  ],
+  "module": "Email Logs",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "4 minutes",
+  "overview": "This guide covers email logs workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "audit-outbound-email",
+      "title": "Audit Outbound Email",
+      "purpose": "Mobile App Access controls which users of a given practice are entitled to sign in to the eVitals mobile companion app. It is scoped per practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Navigate to Email Logs",
+          "description": "Sidebar \u2192 Email Logs.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search Email Logs",
+          "description": "Enter part of the subject, recipient, or event category in Search.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Read Delivery Status",
+          "description": "Read the Status pill \u2014 green S indicates the mail provider accepted the message.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "View Full Message",
+          "description": "Scroll the Body cell for the full message preview.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "ac183e3133c691887bac7eaf79c6bb02a5173c34.png"
+      ],
+      "_manualRef": "5.13.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "email logs",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "email-logs"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "audit-outbound-email",
+      "title": "Audit Outbound Email"
+    }
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,137 @@
+{
+  "id": "super-admin-calendar",
+  "title": "Calendar",
+  "description": "Calendar documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Calendar",
+      "href": "/docs/super-admin/super-admin-calendar"
+    }
+  ],
+  "module": "Calendar",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "8 minutes",
+  "overview": "This guide covers calendar workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "open-the-calendar-menu",
+      "title": "Open the Calendar Menu",
+      "purpose": "",
+      "steps": [],
+      "screenshots": [
+        "26f1ee0742e87d6a3d3b1f161525a1a7d15d8fce.png"
+      ],
+      "_manualRef": "5.10.1"
+    },
+    {
+      "id": "manage-visit-types",
+      "title": "Manage Visit Types",
+      "purpose": "Add and edit the visit templates used across practices.",
+      "steps": [],
+      "screenshots": [
+        "a6d11b5a2a557f76447249415b8c4f35a9afcea4.png"
+      ],
+      "_manualRef": "5.10.2"
+    },
+    {
+      "id": "set-working-hours",
+      "title": "Set Working Hours",
+      "purpose": "Define the availability window per day of the week.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Choose Schedule Date Range",
+          "description": "Choose the date range the schedule applies to.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Daily Work Hours",
+          "description": "For each day of the week, enter the start and end time (add multiple ranges for split shifts).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Save Schedule",
+          "description": "Save.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "2b7b27b93c5af6d38564cf910dc8c4bba8d0d998.png"
+      ],
+      "_manualRef": "5.10.3"
+    },
+    {
+      "id": "book-on-the-calendar-grid",
+      "title": "Book on the Calendar Grid",
+      "purpose": "The Programs module defines the care programs practices enroll patients into. Each program bundles a category, billing codes, reimbursement values, clinical requirements, and a visual identity.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Pick Calendar Month",
+          "description": "Pick a month from the mini-calendar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Toggle Caregiver Visibility",
+          "description": "Toggle caregivers on/off in the sidebar to layer their availability.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Book a Visit",
+          "description": "Click an empty slot to open the booking dialog and choose a Visit Type (see 14.2).",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "092108441c4897d8ebf7d7231fec161fc6a73b68.png"
+      ],
+      "_manualRef": "5.10.4"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "calendar",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "calendar"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "open-the-calendar-menu",
+      "title": "Open the Calendar Menu"
+    },
+    {
+      "id": "manage-visit-types",
+      "title": "Manage Visit Types"
+    },
+    {
+      "id": "set-working-hours",
+      "title": "Set Working Hours"
+    },
+    {
+      "id": "book-on-the-calendar-grid",
+      "title": "Book on the Calendar Grid"
+    }
+  ],
+  "screenshots": []
+}

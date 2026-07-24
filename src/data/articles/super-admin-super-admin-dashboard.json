@@ -1,0 +1,88 @@
+{
+  "id": "super-admin-super-admin-dashboard",
+  "title": "Super Admin Dashboard",
+  "description": "Super Admin Dashboard documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Super Admin Dashboard",
+      "href": "/docs/super-admin/super-admin-super-admin-dashboard"
+    }
+  ],
+  "module": "Super Admin Dashboard",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "3 minutes",
+  "overview": "This guide covers super admin dashboard workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "review-enrollment-summary",
+      "title": "Review Enrollment Summary",
+      "purpose": "Understand platform-wide reach at a glance.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Sign In as Super Admin",
+          "description": "Sign in as Super Admin.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Read Summary Cards",
+          "description": "Read the three summary cards at the top of the workspace.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Drill Into a Practice",
+          "description": "Use the numbers as an entry point into deeper modules (e.g. click a practice row to drill in).",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "3b1ae4058fad238164b94b5a86091e525c46f9d9.png"
+      ],
+      "_manualRef": "5.1.1"
+    },
+    {
+      "id": "navigate-the-sidebar",
+      "title": "Navigate the Sidebar",
+      "purpose": "Practice List is the master registry of every practice on the platform. Each row can be drilled into to reveal nine tabs covering primary contact, staff, patients, RPM specifics, and scheduling.",
+      "steps": [],
+      "screenshots": [],
+      "_manualRef": "5.1.2"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "super admin dashboard",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "super-admin-dashboard"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-enrollment-summary",
+      "title": "Review Enrollment Summary"
+    },
+    {
+      "id": "navigate-the-sidebar",
+      "title": "Navigate the Sidebar"
+    }
+  ],
+  "screenshots": []
+}

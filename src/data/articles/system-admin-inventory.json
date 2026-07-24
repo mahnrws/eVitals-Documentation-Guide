@@ -1,0 +1,246 @@
+{
+  "id": "system-admin-inventory",
+  "title": "Inventory",
+  "description": "Inventory documentation for System Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-admin"
+    },
+    {
+      "label": "Inventory",
+      "href": "/docs/system-admin/system-admin-inventory"
+    }
+  ],
+  "module": "Inventory",
+  "category": "System Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "22 minutes",
+  "overview": "This guide covers inventory workflows for System Admin.",
+  "subtasks": [
+    {
+      "id": "browse-the-inventory-list",
+      "title": "Browse the inventory list",
+      "purpose": "Get an at-a-glance view of every product category, its price, on-hand quantity and status.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Inventory List",
+          "description": "Click Inventory in the left sidebar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search Inventory",
+          "description": "Use the Search box to filter by product name, category, or model number.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sort Inventory List",
+          "description": "Sort by clicking any column header (e.g. Received Date, Price, Qty).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Page Through Inventory",
+          "description": "Use the pager (Page 1 of N, arrows) or change Show entries to page through the catalog.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Audit Inventory Activity",
+          "description": "Click Event Logs (bottom) to audit inventory add / edit / delete activity. Notes The Status chip (A = Active) means the product is available for assignment; inactive products remain visible for historical reference but cannot be issued to patients. Qty represents the total number of individual devices tracked under this product; expand via the eye icon to see per-serial mappings.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-53.png"
+      ],
+      "_manualRef": "6.4.1"
+    },
+    {
+      "id": "add-a-new-inventory-item",
+      "title": "Add a new inventory item",
+      "purpose": "Register a new product category (BP monitor, glucose meter, scale, etc.) into the system.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Add Inventory Item",
+          "description": "Click + Add Inventory (top-right).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Fill Product Details",
+          "description": "Fill in Product Category, Product Name, Model Number, Received Date, Price and Qty of Each Category.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Enter Gateway Serial",
+          "description": "Optionally enter a Gateway Serial Number for cellular hubs.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Set Status Active",
+          "description": "Set Status = Active.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Save Inventory Item",
+          "description": "Click OK to save, or Cancel to discard. Notes Qty determines how many serial numbers can be mapped later under Inventory Details.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.4.2"
+    },
+    {
+      "id": "view-inventory-details-mapped-devices-eye-icon",
+      "title": "View inventory details & mapped devices (eye icon)",
+      "purpose": "Drill into a product to see every individual device serial and its assignment status.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Inventory Details",
+          "description": "From the Inventory List, click the eye icon on the target product row.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Inventory Header",
+          "description": "Review the Inventory Details header: Product Category, Product Name, Meter Model, Received Date, Price, Qty of Each Category, Status and Gateway Serial Number.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Scroll to Mapped Devices",
+          "description": "Scroll to Mapped device to see the per-device roster (Product Name, Product Model Number, Product Serial Number, Assignee, Assigning Date).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Search or Sort Devices",
+          "description": "Use the Search box or column sort to locate a specific serial.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Add New Meter",
+          "description": "Click + Add new meter to register additional serial numbers under this product.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Return to Inventory List",
+          "description": "Click List (top-right) to return to the Inventory List. Notes Rows where Assignee = N/A are unassigned devices available for issue; a name and Assigning Date mean the device is currently allocated to a patient. Serial numbers created under Add new meter count toward the product\u2019s Qty of Each Category.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-54.png"
+      ],
+      "_manualRef": "6.4.3"
+    },
+    {
+      "id": "edit-an-inventory-item-pencil-icon",
+      "title": "Edit an inventory item (pencil icon)",
+      "purpose": "Update product-level data such as price, quantity, status or review the on-file serial numbers.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Edit Inventory Modal",
+          "description": "Click the pencil icon on the target inventory row \u2014 the Edit Products modal opens.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Update Inventory Fields",
+          "description": "Update Product Category, Qty of Each Category, Product Name, Received Date, Model Number, Gateway Serial Number, Price or Status as needed.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review Serial Numbers",
+          "description": "Review the Serial numbers on file list at the bottom of the modal (read-only).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save Inventory Changes",
+          "description": "Click OK to save changes or Cancel to discard. Notes Assigned serials cannot be changed from this screen \u2014 the modal shows the message \"Assigned serials cannot be changed from this screen.\" Use Inventory Details \u2192 Mapped device to manage individual devices. Decreasing Qty below the number of already-mapped serials is blocked by validation. Setting Status = Inactive keeps historical records intact but prevents new assignments.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-55.png"
+      ],
+      "_manualRef": "6.4.4"
+    },
+    {
+      "id": "delete-an-inventory-item-trash-icon",
+      "title": "Delete an inventory item (trash icon)",
+      "purpose": "Permanently remove a product from inventory.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Delete Inventory Item",
+          "description": "Click the red trash icon on the target inventory row.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Confirm Deletion",
+          "description": "Confirm the deletion in the modal. Notes If any mapped device is still assigned, the system blocks deletion \u2014 unassign devices first or mark the product Inactive instead. Task 6.5 \u2014 Billing Reports",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "6.4.5"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "inventory",
+    "system admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Admin",
+    "tags": [
+      "system-admin",
+      "inventory"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "browse-the-inventory-list",
+      "title": "Browse the inventory list"
+    },
+    {
+      "id": "add-a-new-inventory-item",
+      "title": "Add a new inventory item"
+    },
+    {
+      "id": "view-inventory-details-mapped-devices-eye-icon",
+      "title": "View inventory details & mapped devices (eye icon)"
+    },
+    {
+      "id": "edit-an-inventory-item-pencil-icon",
+      "title": "Edit an inventory item (pencil icon)"
+    },
+    {
+      "id": "delete-an-inventory-item-trash-icon",
+      "title": "Delete an inventory item (trash icon)"
+    }
+  ],
+  "screenshots": []
+}

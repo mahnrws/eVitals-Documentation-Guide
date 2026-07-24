@@ -1,0 +1,57 @@
+{
+  "id": "super-admin-billing",
+  "title": "Billing",
+  "description": "Billing documentation for Super Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/super-admin"
+    },
+    {
+      "label": "Billing",
+      "href": "/docs/super-admin/super-admin-billing"
+    }
+  ],
+  "module": "Billing",
+  "category": "Super Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "2 minutes",
+  "overview": "This guide covers billing workflows for Super Admin.",
+  "subtasks": [
+    {
+      "id": "review-the-billing-report",
+      "title": "Review the Billing Report",
+      "purpose": "Patient Management is the cross-practice patient search workspace. It exposes three lookups depending on how the operator wants to slice results.",
+      "steps": [],
+      "screenshots": [
+        "e61119a2509b9b51f763a11cd2a5e8f1c0b363b4.png"
+      ],
+      "_manualRef": "5.7.1"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "billing",
+    "super admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Super Admin",
+    "tags": [
+      "super-admin",
+      "billing"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "review-the-billing-report",
+      "title": "Review the Billing Report"
+    }
+  ],
+  "screenshots": []
+}

@@ -1,0 +1,168 @@
+{
+  "id": "system-caregiver-patient-management",
+  "title": "Patient Management",
+  "description": "Patient Management documentation for System Caregiver.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/system-caregiver"
+    },
+    {
+      "label": "Patient Management",
+      "href": "/docs/system-caregiver/system-caregiver-patient-management"
+    }
+  ],
+  "module": "Patient Management",
+  "category": "System Caregiver",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "14 minutes",
+  "overview": "This guide covers patient management workflows for System Caregiver.",
+  "subtasks": [
+    {
+      "id": "lookup-patient-filtered-search",
+      "title": "Lookup Patient (filtered search)",
+      "purpose": "Find patients across assigned practices using program, provider, caregiver, status, vitals and device filters.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Open Patient Mgmt \u2192 Lookup Patient \u2014 the filter panel loads with Last Name, First Name, Provider, Caregiver, Status, Vitals, and Serial # (16 digits).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Enter any combination of filters. Provider and Caregiver are dropdowns scoped to the caregiver\u2019s assigned practices.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Click Query \u2014 the results grid populates with #, Status, Vitals, Name, Systolic, Diastolic, Pulse, Glucose, Weight, Last Upload, # Readings, and Time.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "Click Reset to clear all filters and start a new search. Use the top-right Search: field to further filter the loaded results in-page.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Step 5",
+          "description": "The empty state \u201cSelect filters and click Query to load patients\u201d confirms no query has been executed yet.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image15.png"
+      ],
+      "_manualRef": "10.2.1"
+    },
+    {
+      "id": "lookup-patient-by-rpm-date",
+      "title": "Lookup Patient (by RPM Date)",
+      "purpose": "List RPM-enrolled patients whose RPM service falls within a chosen date range and export the results.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Open Patient Mgmt \u2192 Lookup Patient (by RPM date) \u2014 the \u201cRPM Service Date Range\u201d filter appears with two mm/dd/yyyy pickers.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Pick the From and To dates and click Query \u2014 the grid shows #, Status, Vitals, Patient Name, DOB, Modal #, Serial #, RPM Start Date, Upload Date/Time, Measurement Days, Service Time, and Eligible CPT Codes.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Sort by any column (e.g. RPM Start Date) using the header arrow; use the top-right Search: to filter loaded rows.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "Use Print to open a print preview, Export to download the roster (CSV / Excel), or Email to send it to a linked recipient. Reset clears the range and results.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image16.png"
+      ],
+      "_manualRef": "10.2.2"
+    },
+    {
+      "id": "lookup-patient-by-ccm-date",
+      "title": "Lookup Patient (by CCM Date)",
+      "purpose": "List CCM-enrolled patients whose CCM service window falls in a chosen range, with billing status per row.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Step 1",
+          "description": "Open Patient Mgmt \u2192 Lookup Patient (by CCM date) \u2014 the \u201cCCM Service Date Range\u201d picker appears.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Step 2",
+          "description": "Pick From / To dates and click Query \u2014 the grid renders #, Status, Patient Name, DOB, Chronic Conditions, Enrollment Date, Last Activity, Service Time, Eligible CPT Codes, and Billing.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Step 3",
+          "description": "Sort by Enrollment Date (default sort arrow shown) or any other header. Filter loaded rows via the Search: field.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Step 4",
+          "description": "Use Print / Export / Email to distribute the roster; Reset clears filters and results. The \u201cNo patients found\u201d state indicates no rows match the range.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "image17.png"
+      ],
+      "_manualRef": "10.2.3"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "patient management",
+    "system caregiver"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "System Caregiver",
+    "tags": [
+      "system-caregiver",
+      "patient-management"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "lookup-patient-filtered-search",
+      "title": "Lookup Patient (filtered search)"
+    },
+    {
+      "id": "lookup-patient-by-rpm-date",
+      "title": "Lookup Patient (by RPM Date)"
+    },
+    {
+      "id": "lookup-patient-by-ccm-date",
+      "title": "Lookup Patient (by CCM Date)"
+    }
+  ],
+  "screenshots": [
+    "image14.png"
+  ]
+}

@@ -1,0 +1,698 @@
+{
+  "id": "provider-practice-detail-tabbed-workspace",
+  "title": "Practice Detail (Tabbed Workspace)",
+  "description": "Practice Detail (Tabbed Workspace) documentation for Provider.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/provider"
+    },
+    {
+      "label": "Practice Detail (Tabbed Workspace)",
+      "href": "/docs/provider/provider-practice-detail-tabbed-workspace"
+    }
+  ],
+  "module": "Practice Detail (Tabbed Workspace)",
+  "category": "Provider",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "77 minutes",
+  "overview": "This guide covers practice detail (tabbed workspace) workflows for Provider.",
+  "subtasks": [
+    {
+      "id": "practice-tab-primary-contact-monitoring-details-program-dates",
+      "title": "Practice tab (Primary Contact, Monitoring Details, Program Dates)",
+      "purpose": "Review the practice\u2019s canonical contact record, monitoring configuration and CCM / RPM program windows.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Confirm Practice Tab",
+          "description": "From the Dashboard, ensure the Practice tab is selected (it is the default).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Primary Contact",
+          "description": "Review the Primary Contact card: Facility address, Email, Phone 1, Phone 2, Fax and Status (Active / Inactive).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review Program Dates",
+          "description": "Review the Program Dates table for CCM and RPM \u2014 each row shows the program Start date, End date and the number of Days in the current cycle.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Scroll to Monitoring Details",
+          "description": "Scroll to Monitoring Details for the \u201cDo you want eVitals to Monitor your patients\u201d and \u201cBuying Device\u201d answers. Notes This tab is read-only for a Provider \u2014 updates to facility, phone or program dates are performed by an Admin / System Admin. Status = Active means the practice is billable in the current cycle; Inactive suppresses new billing events. Program Dates \u201cDays\u201d is the length of the current billing cycle window, not days remaining.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "8.2.1"
+    },
+    {
+      "id": "admins-tab-view-practice-administrators",
+      "title": "Admins tab (view practice administrators)",
+      "purpose": "See the practice\u2019s administrator roster and quickly open any admin\u2019s profile for contact details or event history.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Admins Tab",
+          "description": "Click the Admins tab in the practice-detail tab bar.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search or Filter Admins",
+          "description": "Type into Search admins\u2026 to filter by name / email, or use the All Status dropdown to filter Active / Inactive.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sort Admins List",
+          "description": "Click the Status column arrow to sort ascending / descending.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Open Admin Profile",
+          "description": "Click an admin Name (blue link) to open the admin profile, or use the eye icon in the Action column for the same result.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Review Admin Audit Log",
+          "description": "Click Event Logs (bottom-left) to view the practice-level admin audit trail.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Change Page Size",
+          "description": "Change the Show N entries dropdown to change page size; use the pager (top-right) to move between pages. Notes Add / edit / delete of Practice Admins is restricted to Practice Admin, System Admin and Super Admin \u2014 the Provider has read-only access. Event Logs opens a chronological list of admin actions (add / edit / status change / login).",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-96.png"
+      ],
+      "_manualRef": "8.2.2"
+    },
+    {
+      "id": "providers-tab-peer-roster",
+      "title": "Providers tab (peer roster)",
+      "purpose": "See the practice\u2019s full provider roster (including self) and open any provider profile.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Providers Tab",
+          "description": "Click the Providers tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Search or Filter Providers",
+          "description": "Use Search providers\u2026 to filter by name / email and the All Status dropdown to filter Active / Inactive.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sort Providers List",
+          "description": "Sort by Status by clicking the header arrow.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Open Provider Profile",
+          "description": "Click a provider Name (blue link) or the eye icon to open the provider profile. Notes The Provider\u2019s own row appears in the grid so they can quickly open their own read-only profile card. Provider add / edit is restricted to Practice Admin and above.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-97.png"
+      ],
+      "_manualRef": "8.2.3"
+    },
+    {
+      "id": "caregivers-tab-practice-caregivers",
+      "title": "Caregivers tab (practice caregivers)",
+      "purpose": "See the Practice Caregiver roster with their contact details and open any profile.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Caregivers Tab",
+          "description": "Click the Caregivers tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Filter Caregivers",
+          "description": "Filter with Search caregivers\u2026 and the All Status dropdown.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sort Caregivers List",
+          "description": "Sort by Status via the header arrow.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Open Caregiver Profile",
+          "description": "Click a Name or the eye icon to open the caregiver profile.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Edit Caregiver (If Available)",
+          "description": "If the pencil icon is visible for the Provider role, click it to edit; otherwise the row is read-only. Notes The blue \u201c+ Add Caregiver\u201d button visible to Practice Admin / System Admin is typically hidden for a Provider \u2014 the tab is used for reference. Practice Caregivers are the primary reviewers for the Provider\u2019s patients \u2014 the Patient enrolment wizard requires at least one to be assigned.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-98.png"
+      ],
+      "_manualRef": "8.2.4"
+    },
+    {
+      "id": "patients-tab-rpm-view-billing-dates-uploads-cpt-counters",
+      "title": "Patients tab \u2014 RPM view (billing dates, uploads, CPT counters)",
+      "purpose": "Review the RPM patient population for the current billing window with vitals summary, upload activity and CPT-code progression.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Patients Tab (RPM View)",
+          "description": "Click the Patients tab. If the RPM toggle (top-right, blue) is not selected, click RPM.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Note Billing Window",
+          "description": "Note the RPM Billing Dates window (e.g., 07-01-2026 \u2013 07-30-2026) shown top-right.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Read Summary Cards",
+          "description": "Read the summary cards: Total Patient (with A / P / L status chips), Recent Uploads (last 24 hours), Missed Uploads (older than 24 hours), Abnormal Readings (needs review) and CPT Billing (99453 / 99445 / 99454 + more counters showing eligible / total).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Filter by Cohort Card",
+          "description": "Click a card\u2019s \u201cclick to view all\u201d link to filter the grid to that cohort.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Filter Grid Further",
+          "description": "Use the Search patients by name\u2026 box and the All Status dropdown to filter the grid further.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Sort by Name",
+          "description": "Sort the grid by Name using the header arrow.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Review Patient Row Chips",
+          "description": "For each patient row, review chip badges (BP / BG / WT \u2014 a chip indicates the patient is monitored for that vital), latest Systolic / Diastolic / Pulse / Glucose / Weight, Last Upload date, # Readings in the current window and Time (accumulated caregiver-review minutes).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Open Reading Trend View",
+          "description": "Red numbers highlight out-of-target readings (e.g., diastolic 111.00 in red) \u2014 click the \u2665 heart icon next to a value to open the trend / detail view.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 9,
+          "title": "Add a Patient",
+          "description": "Click Add Patient (top-right) to enrol a new patient (opens the same wizard covered under Patient Management).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 10,
+          "title": "Open or Edit Patient",
+          "description": "Use the eye icon in Action to open the patient dashboard or the pencil icon to edit demographics. Notes",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 11,
+          "title": "CPT Billing shows current cycle eligibility",
+          "description": "e.g., 99454 requires \u2265 16 upload days in the 30-day window. Status chip A / P / L stands for Active / Paused / Lost-to-follow-up \u2014 chip colours match the row Status. The Time column feeds CPT 99457 (first 20 minutes) and 99458 (each additional 20 minutes) \u2014 see the CPT Billing card for real-time eligibility.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-99.png"
+      ],
+      "_manualRef": "8.2.5"
+    },
+    {
+      "id": "patients-tab-ccm-view-care-plan-status-service-time",
+      "title": "Patients tab \u2014 CCM view (care-plan status, service time)",
+      "purpose": "Review the CCM patient population for the current CCM cycle with care-plan status, chronic conditions and billing state.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Switch to CCM View",
+          "description": "Click Patients \u2192 click the CCM toggle (top-right, next to RPM).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Note CCM Billing Window",
+          "description": "Note the CCM Billing Dates window (e.g., 06-30-2026 \u2013 07-24-2026).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review CCM Summary Cards",
+          "description": "Review the summary cards: Total Patients (with A / P / L chips), Active Care Plan (provider-approved plans), Complex Care Plan (attested complex CCM), Items Pending Review (care-plan changes awaiting provider sign-off) and CPT Billing (99490 / 99491 / 99439 with eligible / total counters).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Jump to Pending Review",
+          "description": "Click Items Pending Review \u2192 click to view all to jump straight to plans awaiting provider approval.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Sort & Filter CCM Grid",
+          "description": "Sort the grid by Patient Name and filter with Search patients by name\u2026 and the All Status dropdown.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Review Patient Row Details",
+          "description": "For each row, review DOB, Chronic Conditions, Last Activity, Service Time (accumulated CCM minutes) and Billing state (Pending / Billed).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Add or Edit CCM Patient",
+          "description": "Click Add Patient to enrol a new CCM patient, or use the eye / pencil action icons to open or edit an existing patient.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Toggle Back to RPM",
+          "description": "Toggle back to RPM using the RPM chip at the top-right when finished. Notes Billing = Pending means the CCM claim for the current cycle has not yet been submitted; Billed indicates it has been filed. A CCM patient must have \u2265 2 chronic conditions to be billable under 99490. \u201cItems Pending Review\u201d is the Provider\u2019s CCM inbox \u2014 clearing it is required before billing the cycle.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-100.png"
+      ],
+      "_manualRef": "8.2.6"
+    },
+    {
+      "id": "system-caregivers-tab",
+      "title": "System Caregivers tab",
+      "purpose": "See the practice\u2019s System Caregiver roster (cross-practice reviewers such as the eVitals monitoring team) and open any profile.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open System Caregivers Tab",
+          "description": "Click the System Caregivers tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Filter Caregivers",
+          "description": "Filter with Search caregivers\u2026 and the All Status dropdown.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Sort by Status",
+          "description": "Sort by Status using the header arrow.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Open Caregiver Profile",
+          "description": "Click a Name or the eye icon to open the caregiver profile.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Review Assignment Audit Log",
+          "description": "Click Event Logs (bottom-left) for the audit trail of System Caregiver assignments. Notes System Caregivers are assigned by Super Admin / System Admin and are shared across practices \u2014 a Provider can view but not add / edit. The empty state \u201cNo system caregivers found\u201d means no System Caregiver is currently mapped to this practice.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-101.png"
+      ],
+      "_manualRef": "8.2.7"
+    },
+    {
+      "id": "rpm-tab-rpm-scoped-practice-contact",
+      "title": "RPM tab (RPM-scoped practice contact)",
+      "purpose": "View the RPM-scoped copy of the Primary Contact / Program Dates / Monitoring Details, used when RPM billing correspondence must reference a different address / phone than the general practice record.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open RPM Tab",
+          "description": "Click the RPM tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Practice Contact Info",
+          "description": "Review Facility, Email, Phone 1, Phone 2, Fax, Status and Program Dates (CCM & RPM rows shown for reference).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Scroll to Monitoring Details",
+          "description": "Scroll to Monitoring Details for the RPM monitoring / device answers. Notes When the RPM record matches the general practice contact, this tab mirrors the Practice tab exactly. Read-only for a Provider \u2014 updates are performed by Practice Admin / System Admin.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-102.png"
+      ],
+      "_manualRef": "8.2.8"
+    },
+    {
+      "id": "configure-schedule-targets-daily-schedule",
+      "title": "Configure Schedule & Targets \u2014 Daily Schedule",
+      "purpose": "Confirm the practice-wide daily schedule anchors (Wake-up, Breakfast, Lunch, Dinner, Bed) that drive the vital-sign target windows.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Schedule & Targets",
+          "description": "Click the Schedule & Targets tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Daily Schedule Times",
+          "description": "In the Daily Schedule panel, review or update Wake-up Time (required, default 06:00 AM), Breakfast Time (required, 08:00 AM), Lunch Time (required, 12:00 PM), Dinner Time (required, 06:00 PM) and Bed Time (required, 10:00 PM) using the time pickers.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Save, Cancel, or Audit",
+          "description": "Click Save to persist, Cancel to discard, or Event Logs to see who last changed the schedule and when. Notes The five anchors are used as the default cut-offs for the Blood Pressure and Blood Glucose target windows (see 8.2.10 / 8.2.11). Editing this panel updates the whole practice \u2014 not just the Provider\u2019s patients. If Save / Cancel are greyed out, the Provider role does not have edit permission on this practice; contact a Practice Admin.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-103.png"
+      ],
+      "_manualRef": "8.2.9"
+    },
+    {
+      "id": "configure-schedule-targets-blood-pressure-targets",
+      "title": "Configure Schedule & Targets \u2014 Blood Pressure Targets",
+      "purpose": "Confirm five time-of-day BP windows (Wake-up / Morning / Noon / Afternoon / Evening) and the Systolic / Diastolic target range for each window.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scroll to BP Targets",
+          "description": "Scroll to the Blood Pressure Targets panel.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set BP Time Windows",
+          "description": "For each window (Wake-up, Morning, Noon, Afternoon, Evening \u2014 all required), set the Start and End times.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Systolic/Diastolic Bounds",
+          "description": "For each Target Range panel below the times, set Systolic Pressure lower / upper bounds and Diastolic Pressure lower / upper bounds (defaults 100/142 systolic wake, 100/130 morning etc., and 50/113 diastolic wake, 50/80 morning etc.).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save BP Targets",
+          "description": "Click Save (top-right of the panel). Notes The five windows must not overlap \u2014 the UI blocks Save if a window Start \u2265 End or if two windows overlap. Any BP reading falling outside its window\u2019s target range appears in red on the Patients grid and contributes to the Abnormal Readings summary card. Diastolic values above the upper bound (e.g., 111.00 vs upper 113) are typically flagged red on the grid.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-103.png"
+      ],
+      "_manualRef": "8.2.10"
+    },
+    {
+      "id": "configure-schedule-targets-blood-glucose-targets",
+      "title": "Configure Schedule & Targets \u2014 Blood Glucose Targets",
+      "purpose": "Confirm the eight glucose time windows and their target ranges for the practice.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scroll to Glucose Targets",
+          "description": "Scroll to the Blood Glucose Targets panel.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Headline Ranges",
+          "description": "Review / edit the three headline ranges: Wake-up Target Range (default 60\u2013110), Before-Meal Target Range (60\u2013110), After-Meal Target Range (70\u2013140).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Review Bedtime & Midnight Ranges",
+          "description": "Review / edit Bedtime Target Range (60\u2013110) and Midnight Target Range (60\u2013110).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Set Wake-Up Time",
+          "description": "Set the Wake-up Time (required, default 06:00 AM \u2013 11:00 AM).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Confirm Meal Time Windows",
+          "description": "For each of Before-Breakfast (07:01 AM \u2013 01:00 PM), After-Breakfast (09:01 AM \u2013 03:00 PM), Before-Lunch (11:01 AM \u2013 05:00 PM), After-Lunch (01:01 PM \u2013 09:00 PM), Before-Dinner (05:01 PM \u2013 11:00 PM), After-Dinner (07:01 PM \u2013 12:29 AM), Bedtime (08:30 PM \u2013 02:00 AM) and Midnight (10:00 PM \u2013 10:00 AM), confirm the Start / End times.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Save or Cancel Targets",
+          "description": "Click Save to persist or Cancel to discard. Notes After-Meal target range is intentionally wider (70\u2013140) to accommodate postprandial spikes.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Windows that wrap past midnight (e.g., After-Dinner 07",
+          "description": "01 PM \u2013 12:29 AM) are supported. Readings outside the window range are highlighted on the Patients grid and inside the patient trend chart.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-104.png"
+      ],
+      "_manualRef": "8.2.11"
+    },
+    {
+      "id": "configure-schedule-targets-weight-targets",
+      "title": "Configure Schedule & Targets \u2014 Weight Targets",
+      "purpose": "Set the weight, body-fat and BMI target ranges and the Morning / Afternoon / Evening weigh-in windows that drive the Weight (WT) chip badges on the Patients grid.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scroll to Weight Targets",
+          "description": "Scroll to the Weight Targets panel at the bottom of the Schedule & Targets tab.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Reference Ranges",
+          "description": "Review the Recommended Weight Range (-- lb) and Recommended Body Fat Range (-- %) reference labels (auto-populated from the practice defaults).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Enter Weight Target Range",
+          "description": "Enter the Weight Target Range \u2014 lower bound (e.g., 66) and upper bound (e.g., 220) in lb.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Enter Body Fat Range",
+          "description": "Enter the Body Fat Target Range \u2014 lower bound (e.g., 14) and upper bound (e.g., 27) in %.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Set BMI Thresholds",
+          "description": "In the BMI Target Range row, keep the Underweight column as the BMI label anchor and enter the thresholds for Normal (e.g., 18.5), Overweight (e.g., 25) and Obese (e.g., 30).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Set Morning Weigh-In Window",
+          "description": "Set the Morning weigh-in window \u2014 start (e.g., 06:00 AM) and end (e.g., 03:59 PM).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Set Afternoon Window",
+          "description": "Set the Afternoon window \u2014 start (e.g., 12:00 PM) and end (e.g., 09:59 PM).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 8,
+          "title": "Set Evening Window",
+          "description": "Set the Evening window \u2014 start (e.g., 06:00 PM) and end (e.g., 09:59 AM next day).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 9,
+          "title": "Save Weight Targets",
+          "description": "Click Save to persist the Weight Targets panel, or Cancel to discard changes.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 10,
+          "title": "Review Weight Config History",
+          "description": "Click Event Logs to review historical edits to the weight configuration. Notes Weight and Body Fat values outside the target ranges surface red on the Patients grid and count toward the Abnormal Readings summary card. The BMI thresholds are inclusive lower bounds \u2014 a BMI of exactly 25 falls into Overweight, 30 into Obese. The three weigh-in windows overlap intentionally so late-morning or late-evening readings are still tagged; each reading is bucketed by its timestamp. Weight is shown in the practice\u2019s configured unit \u2014 check Settings if the unit needs to change from lb to kg.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-105.png"
+      ],
+      "_manualRef": "8.2.12"
+    },
+    {
+      "id": "import-patients-bulk-upload",
+      "title": "Import Patients (bulk upload)",
+      "purpose": "Bulk-enrol patients from a CSV or Excel spreadsheet and assign them to a Provider and Caregiver in one step, instead of running the Add New Patient wizard per patient.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Import Patients Tab",
+          "description": "Click the Import Patients tab (rightmost tab in the practice-detail tab bar).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Select Owning Provider",
+          "description": "In the Add Bulk Patients card, open the Provider * dropdown and pick the owning Provider for the imported patients.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Select Monitoring Caregiver",
+          "description": "Open the Caregiver * dropdown and pick the Practice Caregiver who will monitor the imported patients.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Upload Patient Spreadsheet",
+          "description": "Under CSV / Excel File, click Upload CSV/Excel and choose the prepared spreadsheet \u2014 the chosen file name replaces \u201cNo file chosen\u201d.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Submit or Cancel Import",
+          "description": "Click Import Patients (bottom-right, blue) to submit, or Cancel to abandon the upload.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Review Import Results",
+          "description": "Review the result summary \u2014 rows imported, rows failed and a downloadable error report for the failed rows.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 7,
+          "title": "Correct & Re-Upload Rows",
+          "description": "Correct the failed rows in the spreadsheet and re-upload only those rows. Notes Provider and Caregiver are both required \u2014 the Import Patients button stays disabled until a file is selected and both dropdowns have a value. Duplicate detection uses First Name + Last Name + DOB \u2014 matching rows are skipped, not overwritten. Header row must match the template exactly; extra columns are ignored, missing required columns reject the whole file. For RPM patients, Meter Serial Number must be exactly 16 characters or the row is rejected. Task 8.3 \u2014 Patient Management",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-106.png"
+      ],
+      "_manualRef": "8.2.13"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "practice detail (tabbed workspace)",
+    "provider"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Provider",
+    "tags": [
+      "provider",
+      "practice-detail-tabbed-workspace"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "practice-tab-primary-contact-monitoring-details-program-dates",
+      "title": "Practice tab (Primary Contact, Monitoring Details, Program Dates)"
+    },
+    {
+      "id": "admins-tab-view-practice-administrators",
+      "title": "Admins tab (view practice administrators)"
+    },
+    {
+      "id": "providers-tab-peer-roster",
+      "title": "Providers tab (peer roster)"
+    },
+    {
+      "id": "caregivers-tab-practice-caregivers",
+      "title": "Caregivers tab (practice caregivers)"
+    },
+    {
+      "id": "patients-tab-rpm-view-billing-dates-uploads-cpt-counters",
+      "title": "Patients tab \u2014 RPM view (billing dates, uploads, CPT counters)"
+    },
+    {
+      "id": "patients-tab-ccm-view-care-plan-status-service-time",
+      "title": "Patients tab \u2014 CCM view (care-plan status, service time)"
+    },
+    {
+      "id": "system-caregivers-tab",
+      "title": "System Caregivers tab"
+    },
+    {
+      "id": "rpm-tab-rpm-scoped-practice-contact",
+      "title": "RPM tab (RPM-scoped practice contact)"
+    },
+    {
+      "id": "configure-schedule-targets-daily-schedule",
+      "title": "Configure Schedule & Targets \u2014 Daily Schedule"
+    },
+    {
+      "id": "configure-schedule-targets-blood-pressure-targets",
+      "title": "Configure Schedule & Targets \u2014 Blood Pressure Targets"
+    },
+    {
+      "id": "configure-schedule-targets-blood-glucose-targets",
+      "title": "Configure Schedule & Targets \u2014 Blood Glucose Targets"
+    },
+    {
+      "id": "configure-schedule-targets-weight-targets",
+      "title": "Configure Schedule & Targets \u2014 Weight Targets"
+    },
+    {
+      "id": "import-patients-bulk-upload",
+      "title": "Import Patients (bulk upload)"
+    }
+  ],
+  "screenshots": []
+}

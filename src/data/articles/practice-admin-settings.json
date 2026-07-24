@@ -1,0 +1,174 @@
+{
+  "id": "practice-admin-settings",
+  "title": "Settings",
+  "description": "Settings documentation for Practice Admin.",
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "href": "/docs/practice-admin"
+    },
+    {
+      "label": "Settings",
+      "href": "/docs/practice-admin/practice-admin-settings"
+    }
+  ],
+  "module": "Settings",
+  "category": "Practice Admin",
+  "lastUpdated": "July 2026",
+  "estimatedReadingTime": "15 minutes",
+  "overview": "This guide covers settings workflows for Practice Admin.",
+  "subtasks": [
+    {
+      "id": "account-setting",
+      "title": "Account Setting",
+      "purpose": "View the Practice Admin\u2019s own profile, adjust session timeout, toggle Two Way Authentication and clear cached data.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Account Setting",
+          "description": "Click Settings in the sidebar. The Account Setting tab is selected by default.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Review Account Fields",
+          "description": "Review Full Name, Username, Email, Phone and Fax in the read-only Account Settings panel (edit these from the master user record under the practice profile).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "View Session Time",
+          "description": "View the Current Session Time (e.g., 30 minutes).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Update Session Timeout",
+          "description": "Enter a new value in Session Time (minutes) and click Update to change the timeout.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Toggle Two-Factor Auth",
+          "description": "Click the Two Way Authentication chip (Enabled / Disabled) to toggle 2FA for this account.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 6,
+          "title": "Refresh Cached Data",
+          "description": "Click Refresh under Clear Cache to purge cached data for this user session. Notes Session Time controls how long the app can be idle before the user is signed out. Toggling 2FA to Enabled will require a one-time code on the next login; Disabled reverts to password-only. Clear Cache does not sign the user out \u2014 it only forces a fresh fetch of lookup lists and static configuration.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [
+        "evitals_shot_image-94.png"
+      ],
+      "_manualRef": "7.15.1"
+    },
+    {
+      "id": "follow-up-setting",
+      "title": "Follow Up Setting",
+      "purpose": "Configure the thresholds that drive the Care Mgmt \u2192 Follow Up Query \u2014 when a patient becomes eligible for outreach based on missed uploads or abnormal readings.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Follow-Up Setting",
+          "description": "Click Settings \u2192 Follow Up Setting.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Set Upload Threshold",
+          "description": "Set the minimum days since last upload before a patient is flagged.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Set Reading Threshold",
+          "description": "Set the minimum readings expected per billing window.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Set Escalation Window",
+          "description": "Set the escalation window (days after which a missed follow-up is escalated to the provider).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 5,
+          "title": "Save Follow-Up Setting",
+          "description": "Click Save to apply. Notes These thresholds are the input filter for Care Mgmt \u2192 Follow Up (see 7.12.1). Loosening them reduces the flagged list; tightening them increases outreach volume. Changes apply on the next Query run \u2014 existing dismissed rows are not re-flagged retroactively.",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "7.15.2"
+    },
+    {
+      "id": "calendar-permission-settings",
+      "title": "Calendar Permission Settings",
+      "purpose": "Control which roles inside the practice can access the Calendar module (view, book, edit, cancel) and manage the Calendar Setting sub-pages.",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Open Calendar Permissions",
+          "description": "Click Settings \u2192 Calendar Permission Settings.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 2,
+          "title": "Toggle Role Calendar Access",
+          "description": "For each role row (Provider, Practice Caregiver, System Caregiver, \u2026), toggle the Calendar access switch on or off.",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 3,
+          "title": "Expand Granular Permissions",
+          "description": "Where applicable, expand the row to grant granular permissions (Visit Type, Working Hours, Book, Reschedule, Cancel).",
+          "screenshots": []
+        },
+        {
+          "stepNumber": 4,
+          "title": "Save Calendar Permissions",
+          "description": "Click Save to apply. Notes Permission changes take effect on the affected user\u2019s next page load \u2014 no re-login required. Disabling Calendar for a role also hides the Visit Type and Working Hours sub-pages for that role. 8. Provider Task 8.1 \u2014 Dashboard",
+          "screenshots": []
+        }
+      ],
+      "screenshots": [],
+      "_manualRef": "7.15.3"
+    }
+  ],
+  "steps": [],
+  "tips": [],
+  "warnings": [],
+  "troubleshooting": [],
+  "faq": [],
+  "relatedArticles": [],
+  "keywords": [
+    "settings",
+    "practice admin"
+  ],
+  "aliases": [],
+  "searchMetadata": {
+    "category": "Practice Admin",
+    "tags": [
+      "practice-admin",
+      "settings"
+    ]
+  },
+  "tableOfContents": [
+    {
+      "id": "account-setting",
+      "title": "Account Setting"
+    },
+    {
+      "id": "follow-up-setting",
+      "title": "Follow Up Setting"
+    },
+    {
+      "id": "calendar-permission-settings",
+      "title": "Calendar Permission Settings"
+    }
+  ],
+  "screenshots": []
+}
