@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "e-Vitals | Remote Patient Monitoring",
   description: "eVitals RPM documentation - Find the guidance you need, fast.",
   authors: [{ name: "e-Vitals" }],
+  icons: {
+    icon: "/logo.png",
+  },
   openGraph: {
     title: "e-Vitals | Remote Patient Monitoring",
     description: "eVitals RPM documentation - Find the guidance you need, fast.",
