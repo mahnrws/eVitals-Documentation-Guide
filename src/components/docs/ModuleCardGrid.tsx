@@ -41,9 +41,7 @@ export function ModuleCardGrid({ role, grouped, groups, articles }: Props) {
   const closeTimerRef = useRef<NodeJS.Timeout | null>(null);
 
   const results = query.trim() ? searchInRole(articles, role, query, 6) : [];
-
   const roleModules = getRoleModules(role);
-  const quickTags = roleModules.slice(0, 5).map((mod) => mod.docTitle);
 
   // Card hover with delay to allow cursor to move to dropdown
   const handleCardEnter = useCallback((group: string) => {
@@ -82,19 +80,18 @@ export function ModuleCardGrid({ role, grouped, groups, articles }: Props) {
 
         {/* Quick Tags */}
         <div className="mt-3.5 flex flex-wrap items-center justify-center gap-2">
-          {quickTags.map((tag) => (
-            <button
-              key={tag}
-              onMouseDown={(e) => {
-                e.preventDefault();
-                setQuery(tag);
-                setSearchOpen(true);
-              }}
-              className="rounded-full border border-[#d8e6f5] bg-white px-4 py-1.5 text-[13px] text-muted-foreground transition-all duration-[400ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] hover:border-[#a8c8e8] hover:text-foreground hover:shadow-[0_4px_20px_-4px_rgba(80,150,220,0.18)] hover:-translate-y-0.5"
-            >
-              {tag}
-            </button>
-          ))}
+          {roleModules.slice(0, 5).map((mod) => {
+            const slug = mod.articleId.replace(`${role}-`, "");
+            return (
+              <Link
+                key={mod.articleId}
+                href={`/docs/${role}/${slug}`}
+                className="rounded-full border border-[#d8e6f5] bg-white px-4 py-1.5 text-[13px] text-muted-foreground transition-all duration-[400ms] ease-[cubic-bezier(0.25,0.46,0.45,0.94)] hover:border-[#a8c8e8] hover:text-foreground hover:shadow-[0_4px_20px_-4px_rgba(80,150,220,0.18)] hover:-translate-y-0.5"
+              >
+                {mod.docTitle}
+              </Link>
+            );
+          })}
         </div>
 
         {searchOpen && query.trim() && results.length > 0 && (
